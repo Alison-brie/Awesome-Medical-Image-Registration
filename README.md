@@ -3,9 +3,13 @@
 
 :wave: Hi! This repo is a collection of AWESOME things about :star2:**Medical Image Registration**:star2:, including useful materials, papers, code. Feel free to star and fork.
 
-For a list people in medical image registration listed with their academic genealogy, please wait.
+TODO:
+- [ ] Add a list people in medical image registration listed with their academic genealogy
+- [ ] Add a list organs in medical image registration
 
-For a list organs in medical image registration listed, please wait.
+
+
+
 
 ## Contributing
 Please feel free to send me [pull requests](https://github.com/Alison-brie/Awesome-ImageRegistration/pulls) or email (alisonbrielee@gmail.com) to add links.
