@@ -9,8 +9,6 @@ TODO:
 
 
 
-
-
 ## Contributing
 Please feel free to send me [pull requests](https://github.com/Alison-brie/Awesome-ImageRegistration/pulls) or email (alisonbrielee@gmail.com) to add links.
 
@@ -65,9 +63,10 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 
 
 #### Pyramid CNN for Registration
+* [Recursive Cascaded Networks for Unsupervised Medical Image Registration](https://arxiv.org/abs/1907.12353) - Shengyu Zhao, Yue Dong, Eric I-Chao Chang, Yan Xu. ICCV 2019
 * [Dual-Stream Pyramid Registration Network](https://arxiv.org/pdf/1909.11966) - Miao Kang, Xiaojun Hu, Weilin Huang, Matthew R. Scott, Mauricio Reyes.  MICCAI 2019
 * [Large Deformation Diffeomorphic Image Registration with Laplacian Pyramid Networks](https://arxiv.org/abs/2006.16148) - Tony C. W. Mok, Albert C. S. Chung. MICCAI 2020
-* [Recursive Cascaded Networks for Unsupervised Medical Image Registration](https://arxiv.org/abs/1907.12353) - Shengyu Zhao, Yue Dong, Eric I-Chao Chang, Yan Xu. ICCV 2019
+* [IIRP-Net: Iterative Inference Residual Pyramid Network for Enhanced Image Registration]() - CVPR 2024
 
 #### Transformer for Registration
 * [TransMorph: Transformer for unsupervised medical image registration]() - Medical Image Analysis 2022
@@ -94,6 +93,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 
 
 #### Discrete Optimization-based Registration
+* [Globally Optimal Deformable Registration on a Minimum Spanning Tree Using Dense Displacement Sampling]() - MICCAI 2012
 * [Fast 3D registration with accurate optimisation and little learning for Learn2Reg 2021]() - MICCAI Workshop 2021
 * [SAMConvex: Fast Discrete Optimization for CT Registration using Self-supervised Anatomical Embedding and Correlation Pyramid](https://arxiv.org/abs/2307.09727) - Zi Li*, Lin Tian*, Tony C. W. Mok, Xiaoyu Bai, Puyang Wang, Jia Ge, Jingren Zhou, Le Lu, Xianghua Ye, Ke Yan, Dakai Jin. MICCAI 2023
 * [Unsupervised 3D registration through optimization-guided cyclical self-training](https://arxiv.org/abs/2306.16997) - Alexander Bigalke, Lasse Hansen, Tony C. W. Mok, Mattias P. Heinrich. MICCAI 2023
@@ -105,6 +105,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 #### Joint Affine and Deformable Registration
 * [Networks for Joint Affine and Non-Parametric Image Registration](https://drive.google.com/file/d/1fybx_qI9PNW14w8C2gOmBN6GoYn3G_Mu) - Zhengyang Shen, Xu Han, Zhenlin Xu, Marc Niethammer. CVPR 2019
 * [Unsupervised 3D End-to-End Medical Image Registration with Volume Tweening Network](https://arxiv.org/pdf/1902.05020) - Shengyu Zhao*, Tingfung Lau*, Ji Luo*, Eric I-Chao Chang, Yan Xu. IEEE Journal of Biomedical and Health Informatics 2020
+* [SAME: Deformable Image Registration based on Self-supervised Anatomical Embeddings]() - MICCAI 2021
 * [Non-iterative Coarse-to-Fine Transformer Networks for Joint Affine and Deformable Image Registration]() - MICCAI 2023
 
 
@@ -112,14 +113,20 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 
 
 #### Multi-Modality Registration
+* [DRAMMS: Deformable registration via attribute matching and mutual-saliency weighting]() - Medical Image Analysis 2011
 * [MIND: Modality independent neighbourhood descriptor for multi-modal deformable registration]() - Medical Image Analysis 2012
-* [Globally Optimal Deformable Registration on a Minimum Spanning Tree Using Dense Displacement Sampling]() - MICCAI 2012
+* [Towards Realtime Multimodal Fusion for Image-Guided Interventions Using Self-similarities]() - MICCAI 2013
+* [Automatic ultrasound–MRI registration for neurosurgery using the 2D and 3D LC^2 Metric]() - Medical Image Analysis 2014
 * [SynthMorph: learning contrast-invariant registration without acquired images.](https://arxiv.org/abs/2004.10282) - Malte Hoffmann, Benjamin Billot, Juan Eugenio Iglesias, Bruce Fischl, Adrian V. Dalca. IEEE Transactions on Medical Imaging. 2022
+* [ContraReg: Contrastive Learning of Multi-modality Unsupervised Deformable Image Registration]() - MICCAI 2022
+* [DISA: DIfferentiable Similarity Approximation for Universal Multimodal Registration]() - MICCAI 2023
 * [Modality-Agnostic Structural Image Representation Learning for Deformable Multi-Modality Medical Image Registration](https://arxiv.org/abs/2402.18933) - Tony C. W. Mok*, Zi Li*, Yunhao Bai, Jianpeng Zhang, Wei Liu, Yan-Jie Zhou, Ke Yan, Dakai Jin, Yu Shi, Xiaoli Yin, Le Lu, Ling Zhang. CVPR 2024
 
 
 
 #### 2D-3D Registration
+* [Fiducialfree 2d/3d registration for robot-assisted femoroplasty.]() - IEEE
+transactions on medical robotics and bionics 2020
 * [LiftReg: Limited Angle 2D/3D Deformable Registration](https://drive.google.com/file/d/13Dw3RO1ZhF3vtLr9TyJGhJkF7wz8DrjC) - Lin Tian, Yueh Z. Lee, Raúl San José Estépar, Marc Niethammer. MICCAI 2022
 * [Intraoperative 2D/3D Image Registration via Differentiable X-ray Rendering]() - CVPR 2024
 
@@ -133,3 +140,17 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 
 
 
+## Chanllenges
+ - [Learn2Reg 2020](https://learn2reg.grand-challenge.org/Learn2Reg2020/)
+ - [Learn2Reg 2021](https://learn2reg.grand-challenge.org/Learn2Reg2021/)
+ - [Learn2Reg 2022](https://learn2reg.grand-challenge.org/Learn2Reg2022/)
+ - [Learn2Reg 2023](https://learn2reg.grand-challenge.org/Learn2Reg2023/)
+ - [Oncoreg](https://learn2reg.grand-challenge.org/oncoreg/)
+ - [AutomatiC Registration Of Breast cAncer Tissue (ACROBAT)](https://acrobat.grand-challenge.org/)
+ - [Automatic Non-rigid Histological Image Registration (ANHIR)](https://anhir.grand-challenge.org/)
+ - [Robust Non-rigid Registration Challenge for Expansion Microscopy (RnR-ExM)](https://rnr-exm.grand-challenge.org/)
+
+
+## Software
+ - [ANTs](https://manpages.ubuntu.com/manpages/trusty/man1/ANTS.1.html)
+ - [NiftyReg](http://cmictig.cs.ucl.ac.uk/wiki/index.php/NiftyReg_documentation)
