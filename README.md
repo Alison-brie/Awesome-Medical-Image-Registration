@@ -107,7 +107,6 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [MICCAI Workshop 2021] Fast 3D registration with accurate optimisation and little learning for Learn2Reg 2021 [[pdf]](https://arxiv.org/abs/2112.03053) [[code]](https://github.com/multimodallearning/convexAdam)
 * [MICCAI Workshop 2022] Voxelmorph++ going beyond the cranial vault with keypoint supervision and multi-channel instance optimisation [[pdf]](https://openreview.net/pdf?id=SrlgSXA3qAY) [[code]](https://github.com/mattiaspaul/VoxelMorphPlusPlus)
 * [MICCAI 2023] SAMConvex: Fast Discrete Optimization for CT Registration using Self-supervised Anatomical Embedding and Correlation Pyramid [[pdf]](https://arxiv.org/abs/2307.09727) [[code]](https://github.com/alibaba-damo-academy/samconvex) 
-* [MICCAI Workshop 2024] Deformable Medical Image Registration Under Distribution Shifts with Neural Instance Optimization [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-45673-2_13)
 * [TMI 2024] ConvexAdam: Self-Configuring Dual-Optimisation-Based 3D Multitask Medical Image Registration [[pdf]](https://ieeexplore.ieee.org/abstract/document/10681158) [[code]](https://github.com/multimodallearning/convexAdam)
 
 
@@ -146,7 +145,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 
 
 #### Histological Image Registration
-* [TMI 2022] Unsupervised Histological Image Registration Using Structural Feature Guided Convolutional Neural Network [[pdf]](https://ieeexplore.ieee.org/document/9745959)
+* [TMI 2020] ANHIR: Automatic Non-rigid Histological Image Registration Challenge, IEEE Transactions on Medical Imaging [[pdf]](https://ieeexplore.ieee.org/document/9058666) [[code]](https://github.com/MWod/ANHIR_MW)
 * [Nature Communications 2023] Virtual alignment of pathology image series for multi-gigapixel whole slide image [[pdf]](https://www.nature.com/articles/s41467-023-40218-9) [[code]](https://github.com/MathOnco/valis)
 * [TMI 2024] Unsupervised Non-rigid Histological Image Registration Guided by Keypoint Correspondences Based on Learnable Deep Features with Iterative Training [[pdf]](https://ieeexplore.ieee.org/document/10643202) [[code]](https://github.com/weixy17/IKCG/tree/main/ACROBAT)
 
@@ -154,15 +153,12 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 #### Applications of image registration
 * [CVPR 2019] Data Augmentation Using Learned Transformations for One-Shot Medical Image Segmentation [[pdf]](https://www.mit.edu/~adalca/files/papers/cvpr2019_brainstorm.pdf) [[code]](https://github.com/xamyzhao/brainstorm)
 * [MICCAI 2019] DeepAtlas: Joint Semi-Supervised Learning of Image Registration and Segmentation [[pdf]](https://arxiv.org/abs/1904.08465) [[code]](https://github.com/uncbiag/DeepAtlas) 
-* [MICCAI 2019] Adversarial optimization for joint registration and segmentation in prostate CT radiotherapy [[pdf]](https://link.springer.com/chapter/10.1007/978-3-030-32226-7_41)
-* [MedIA 2019] Adversarial learning for mono-or multi-modal registration [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841519300805)
 * [ICCV 2021] Generative Adversarial Registration for Improved Conditional Deformable Templates [[pdf]](https://arxiv.org/abs/2105.04349) [[code]](https://github.com/neel-dey/Atlas-GAN)
 * [CVPR 2022] Aladdin: Joint Atlas Building and Diffeomorphic Registration Learning with Pairwise Alignment [[pdf]](https://arxiv.org/abs/2202.03563) [[code]](https://github.com/uncbiag/Aladdin)
 * [CVPR 2022] Topology-preserving shape reconstruction and registration via neural diffeomorphic flow [[pdf]](https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_Topology-Preserving_Shape_Reconstruction_and_Registration_via_Neural_Diffeomorphic_Flow_CVPR_2022_paper.pdf) [[code]](https://github.com/Siwensun/Neural_Diffeomorphic_Flow--NDF)
 * [MICCAI 2022] Unsupervised Deformable Image Registration with Absent Correspondences in Pre-operative and Post-Recurrence Brain Tumor MRI Scans [[pdf]](https://arxiv.org/abs/2206.03900) [[code]](https://github.com/cwmok/DIRAC)
 * [MICCAI 2023] Implicit neural representations for joint decomposition and registration of gene expression images in the marmoset brain [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_61) [[code]](https://github.com/BrainImageAnalysis/ImpRegDec)
 * [ICCV 2023] Preserving Tumor Volumes for Unsupervised Medical Image Registration [[pdf]](https://arxiv.org/abs/2309.10153) [[code]](https://github.com/dddraxxx/Medical-Reg-with-Volume-Preserving)
-* [MedIA 2023] Anatomically constrained and attention-guided deep feature fusion for joint segmentation and deformable medical image registration [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841523000725)
 
 
 
