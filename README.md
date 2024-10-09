@@ -189,3 +189,5 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
  - [LDDMM](https://github.com/brianlee324/torch-lddmm)
  - [DeedsBCV](https://github.com/mattiaspaul/deedsBCV)
  - [Elastix](https://github.com/SuperElastix/elastix)
+ - [FireANTs (GPU)](https://github.com/rohitrango/fireants)
+
