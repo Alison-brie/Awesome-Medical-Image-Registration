@@ -42,6 +42,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
    - [Multi-Modality Registration](#multi-modality-registration)
    - [2D-3D Registration](#2d-3d-registration)
    - [Histological Image Registration](#histological-image-registration)
+ - [Fundation Model for Registration](#fundation-model-for-registration)
  - [Applications of image registration](#applications-of-image-registration)
 
 
@@ -151,6 +152,10 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [TMI 2020] ANHIR: Automatic Non-rigid Histological Image Registration Challenge, IEEE Transactions on Medical Imaging [[pdf]](https://ieeexplore.ieee.org/document/9058666) [[code]](https://github.com/MWod/ANHIR_MW)
 * [Nature Communications 2023] Virtual alignment of pathology image series for multi-gigapixel whole slide image [[pdf]](https://www.nature.com/articles/s41467-023-40218-9) [[code]](https://github.com/MathOnco/valis)
 * [TMI 2024] Unsupervised Non-rigid Histological Image Registration Guided by Keypoint Correspondences Based on Learnable Deep Features with Iterative Training [[pdf]](https://ieeexplore.ieee.org/document/10643202) [[code]](https://github.com/weixy17/IKCG/tree/main/ACROBAT)
+
+### Fundation Model for Registration 
+* [MICCAI 2024] uniGradICON: A Foundation Model for Medical Image Registration [[pdf]](https://arxiv.org/abs/2403.05780) [[code]](https://github.com/uncbiag/uniGradICON)
+* [MICCAI 2024 Workshop] multiGradICON: A Foundation Model for Multimodal Medical Image Registration [[pdf]](https://arxiv.org/abs/2408.00221) [[code]](https://github.com/uncbiag/uniGradICON)
 
 
 ### Applications of image registration
