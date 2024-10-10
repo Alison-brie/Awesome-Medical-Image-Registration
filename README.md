@@ -176,7 +176,6 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [CVPR 2019] Data Augmentation Using Learned Transformations for One-Shot Medical Image Segmentation [[pdf]](https://www.mit.edu/~adalca/files/papers/cvpr2019_brainstorm.pdf) [[code]](https://github.com/xamyzhao/brainstorm)
 * [MICCAI 2019] DeepAtlas: Joint Semi-Supervised Learning of Image Registration and Segmentation [[pdf]](https://arxiv.org/abs/1904.08465) [[code]](https://github.com/uncbiag/DeepAtlas) 
 * [MedIA 2022] Atlas-ISTN: joint segmentation, registration and atlas construction with image-and-spatial transformer networks [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841522000354) [[code]](https://github.com/biomedia-mira/atlas-istn)
-* [CVPR 2024] 
 
 
 #### Template Construction
