@@ -8,7 +8,10 @@ TODO:
 
 
 
+
 ## Contributing
+:running: **We will keep updating it.** :running:    
+
 Please feel free to send me [pull requests](https://github.com/Alison-brie/Awesome-ImageRegistration/pulls) or email (alisonbrielee@gmail.com) to add links.
 
 ## Table of Contents
@@ -84,6 +87,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 
 ### Deep Diffeomorphic Registration 
 * [MICCAI 2018] Unsupervised Learning for Fast Probabilistic Diffeomorphic Registration [[pdf]](https://arxiv.org/abs/1805.04605) [[code]](https://github.com/voxelmorph/voxelmorph)
+* [TMI 2019] Learning a Probabilistic Model for Diffeomorphic Registration [[pdf]](https://arxiv.org/pdf/1812.07460)
 * [MedIA 2019] Unsupervised Learning of Probabilistic Diffeomorphic Registration for Images and Surfaces [[pdf]](https://arxiv.org/abs/1903.03545) [[code]](https://github.com/voxelmorph/voxelmorph) 
 * [NeurIPS 2019] Region-specific Diffeomorphic Metric Mapping [[pdf]](https://drive.google.com/file/d/1kIuunw6FP2ek8ZsLw92zL6RJw02YU7Nx) [[code]](https://github.com/uncbiag/easyreg)
 * [CVPR 2019] Metric Learning for Image Registration [[pdf]](https://drive.google.com/file/d/1kIuunw6FP2ek8ZsLw92zL6RJw02YU7Nx) [[code]](https://github.com/uncbiag/mermaid)
