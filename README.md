@@ -60,7 +60,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [MICCAI Workshop 2017] End-to-end unsupervised deformable image registration with a convolutional neural network [[pdf]](https://arxiv.org/pdf/1704.06065)
 * [CVPR 2018] An Unsupervised Learning Model for Deformable Medical Image Registration [[pdf]](https://arxiv.org/abs/1802.02604) [[code]](https://github.com/voxelmorph/voxelmorph)
 * [Arxiv 2018] Inverse-Consistent Deep Networks for Unsupervised Deformable Image Registration [[pdf]](https://arxiv.org/pdf/1809.03443) [[code]](https://github.com/zhangjun001/ICNet)
-* [MICCAI 2019] Unsupervised Deformable Image Registration Using Cycle-Consistent CNN [[pdf]](https://arxiv.org/pdf/1809.03443) [[code]](https://github.com/zhangjun001/ICNet)
+* [MICCAI 2019] Unsupervised Deformable Image Registration Using Cycle-Consistent CNN [[pdf]](https://arxiv.org/abs/1907.01319) [[code]](https://github.com/boahK/MEDIA_CycleMorph)
 * [TMI 2019] VoxelMorph: A Learning Framework for Deformable Medical Image Registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-030-32226-7_19) [[code]](https://github.com/boahK/MEDIA_CycleMorph)
 
 #### Pyramid CNN for Registration
