@@ -97,6 +97,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [CVPR 2023] GradICON: Approximate Diffeomorphisms via Gradient Inverse Consistency [[pdf]](https://drive.google.com/file/d/1j8u5n50knQUxhnHp1OMGEwsl8CX-lODX) [[code]](https://github.com/uncbiag/ICON)
 * [MedIA 2019] R2Net: Efficient and flexible diffeomorphic image registration using Lipschitz continuous residual networks [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841523001779) [[code]](https://github.com/ankitajoshi15/R2Net)
 * [ECCV 2024] NePhi: Neural Deformation Fields for Approximately Diffeomorphic Medical Image Registration [[pdf]](https://arxiv.org/abs/2309.07322) [[code]](https://github.com/uncbiag/NePhi)
+* [ArXiv 2024] SITReg: Multi-resolution architecture for symmetric, inverse consistent, and topology preserving image registration [[pdf]](https://arxiv.org/abs/2303.10211) [[code]](https://github.com/honkamj/SITReg?tab=readme-ov-file)
 
 
 
@@ -208,6 +209,8 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
  - [AutomatiC Registration Of Breast cAncer Tissue (ACROBAT)](https://acrobat.grand-challenge.org/)
  - [Automatic Non-rigid Histological Image Registration (ANHIR)](https://anhir.grand-challenge.org/)
  - [Robust Non-rigid Registration Challenge for Expansion Microscopy (RnR-ExM)](https://rnr-exm.grand-challenge.org/)
+ - [Correction of Brain shift with Intra-Operative Ultrasound (CuRIOUS 2019)](https://curious2019.grand-challenge.org/)
+ - [Correction of Brain shift with Intra-Operative Ultrasound (CuRIOUS 2018)](https://curious2018.grand-challenge.org/)
 
 
 ## Software
