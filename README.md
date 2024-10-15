@@ -63,7 +63,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [MICCAI 2019] Unsupervised Deformable Image Registration Using Cycle-Consistent CNN [[pdf]](https://arxiv.org/abs/1907.01319) [[code]](https://github.com/boahK/MEDIA_CycleMorph)
 * [TMI 2019] VoxelMorph: A Learning Framework for Deformable Medical Image Registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-030-32226-7_19) [[code]](https://github.com/boahK/MEDIA_CycleMorph)
 
-#### Pyramid CNN for Registration
+#### Pyramid and Iterative CNN for Registration
 * [ICCV 2019] Recursive Cascaded Networks for Unsupervised Medical Image Registration [[pdf]](https://arxiv.org/abs/1907.12353) [[code]](https://github.com/microsoft/Recursive-Cascaded-Networks)
 * [MICCAI 2019] Dual-Stream Pyramid Registration Network [[pdf]](https://arxiv.org/pdf/1909.11966) [[code]](https://github.com/kangmiao15/Dual-Stream-PRNet-Plus)
 * [MICCAI 2020] Large Deformation Diffeomorphic Image Registration with Laplacian Pyramid Networks [[pdf]](https://arxiv.org/abs/2006.16148) [[code]](https://github.com/cwmok/LapIRN)
@@ -78,8 +78,11 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [MICCAI 2022] Deformer: Towards displacement field learning for unsupervised medical image registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-16446-0_14) [[code]](https://github.com/YongpeiZhu/Swin-VoxelMorph)
 * [MICCAI 2022] XMorpher: Full Transformer for Deformable Medical Image Registration via Cross Attention [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-16446-0_21) [[code]](https://github.com/Solemoon/XMorpher)
 * [CVPR 2022] Affine Medical Image Registration with Coarse-to-Fine Vision Transformer [[pdf]](https://arxiv.org/abs/2203.15216) [[code]](https://github.com/cwmok/C2FViT)
+* [MICCAI Workshop 2022] Coordinate Translator for Learning Deformable Medical Image Registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-18814-5_10) [[code]](https://github.com/ZAX130/SmileCode)
 * [MICCAI 2023] PIViT: Large Deformation Image Registration with Pyramid-Iterative Vision Transformer [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_57) [[code]](https://github.com/Torbjorn1997/PIViT)
+* [MICCAI 2023] ModeT: Learning Deformable Image Registration via Motion Decomposition Transformer [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_70) [[code]](https://github.com/ZAX130/SmileCode)
 * [TMI 2023] TransMatch: a transformer-based multilevel dual-stream feature matching network for unsupervised deformable image registration [[pdf]](https://ieeexplore.ieee.org/abstract/document/10158729) [[code]](https://github.com/tzayuan/TransMatch_TMI)
+* [MICCAI Workshop 2023] Deformable Cross-Attention Transformer for Medical Image Registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-45673-2_12) [[code]](https://github.com/junyuchen245/TransMorph_DCA)
 * [CVPR 2024] Correlation-aware Coarse-to-fine MLPs for Deformable Medical Image Registration [[pdf]](https://openaccess.thecvf.com/content/CVPR2024/papers/Meng_Correlation-aware_Coarse-to-fine_MLPs_for_Deformable_Medical_Image_Registration_CVPR_2024_paper.pdf) [[code]](https://github.com/MungoMeng/Registration-CorrMLP)
 
 
