@@ -179,8 +179,8 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [MICCAI 2022] A Deep-Discrete Learning Framework for Spherical Surface Registration [[pdf]](https://arxiv.org/abs/2203.12999) [[code]](https://github.com/mohamedasuliman/DDR)
 * [MICCAI Workshop 2022] GeoMorph: Geometric Deep Learning for Cortical Surface Registration [[pdf]](https://proceedings.mlr.press/v194/suliman22a.html) [[code]](https://github.com/mohamedasuliman/GeoMorph)
 * [MICCAI Workshop 2023] Unsupervised Learning of Cortical Surface Registration Using Spherical Harmonics [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-46914-5_6)
-* [MIA 2024] SUGAR: Spherical ultrafast graph attention framework for cortical surface registration [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841524000471) [[code]](https://github.com/pBFSLab/SUGAR)
-* [MIA 2024] Longitudinally consistent registration and parcellation of cortical surfaces using semi-supervised learning [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S136184152400118X) [[code]](https://github.com/BRAIN-Lab-UNC/LongitudinalJointRegParc)
+* [MedIA 2024] SUGAR: Spherical ultrafast graph attention framework for cortical surface registration [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841524000471) [[code]](https://github.com/pBFSLab/SUGAR)
+* [MedIA 2024] Longitudinally consistent registration and parcellation of cortical surfaces using semi-supervised learning [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S136184152400118X) [[code]](https://github.com/BRAIN-Lab-UNC/LongitudinalJointRegParc)
 
 
 
