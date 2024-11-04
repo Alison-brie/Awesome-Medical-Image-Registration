@@ -47,7 +47,8 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
    - [2D-3D Registration](#2d-3d-registration)
    - [Histological Image Registration](#histological-image-registration)
    - [Registration with Tumor in Image](#registration-with-tumor-in-image)
- - [Fundation Model for Registration](#fundation-model-for-registration)
+   - [Cortical Surface Registration](#cortical_surface_registration)
+ - [Foundation Model for Registration](#foundation-model-for-registration)
  - [Registration Related/Based Application](#registration-relatedbased-application)
     - [Segmentation](#segmentation)
     - [Template Construction](#template-construction)
@@ -171,8 +172,19 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [ICCV 2023] Preserving Tumor Volumes for Unsupervised Medical Image Registration [[pdf]](https://arxiv.org/abs/2309.10153) [[code]](https://github.com/dddraxxx/Medical-Reg-with-Volume-Preserving)
 
 
+#### Cortical Surface Registration
+* [MICCAI Workshop 2020] Unsupervised Learning for Spherical Surface Registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-030-59861-7_38) [[code]](https://github.com/BRAIN-Lab-UNC/S3Reg)
+* [NeuroImage 2020] Cortical surface registration using unsupervised learning [[pdf]](https://arxiv.org/abs/2004.04617) [[code]](https://github.com/voxelmorph/spheremorph)
+* [TMI 2021] S3Reg: Superfast Spherical Surface Registration Based on Deep Learning [[pdf]](https://ieeexplore.ieee.org/abstract/document/9389746/citations#citations) [[code]](https://github.com/BRAIN-Lab-UNC/S3Reg)
+* [MICCAI 2022] A Deep-Discrete Learning Framework for Spherical Surface Registration [[pdf]](https://arxiv.org/abs/2203.12999) [[code]](https://github.com/mohamedasuliman/DDR)
+* [MICCAI Workshop 2022] GeoMorph: Geometric Deep Learning for Cortical Surface Registration [[pdf]](https://proceedings.mlr.press/v194/suliman22a.html) [[code]](https://github.com/mohamedasuliman/GeoMorph)
+* [MICCAI Workshop 2023] Unsupervised Learning of Cortical Surface Registration Using Spherical Harmonics [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-46914-5_6)
+* [MIA 2024] SUGAR: Spherical ultrafast graph attention framework for cortical surface registration [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841524000471) [[code]](https://github.com/pBFSLab/SUGAR)
+* [MIA 2024] Longitudinally consistent registration and parcellation of cortical surfaces using semi-supervised learning [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S136184152400118X) [[code]](https://github.com/BRAIN-Lab-UNC/LongitudinalJointRegParc)
 
-### Fundation Model for Registration 
+
+
+### Foundation Model for Registration 
 * [TMI 2022] SynthMorph: learning contrast-invariant registration without acquired images [[pdf]](https://arxiv.org/abs/2004.10282)  [[code]](https://martinos.org/malte/synthmorph/)
 * [ArXiv 2023] UAE: Universal Anatomical Embedding on Multi-modality Medical Images [[pdf]](https://arxiv.org/pdf/2311.15111.pdf) [[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
 * [MICCAI 2024] uniGradICON: A Foundation Model for Medical Image Registration [[pdf]](https://arxiv.org/abs/2403.05780) [[code]](https://github.com/uncbiag/uniGradICON)
