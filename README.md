@@ -47,7 +47,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
    - [2D-3D Registration](#2d-3d-registration)
    - [Histological Image Registration](#histological-image-registration)
    - [Registration with Tumor in Image](#registration-with-tumor-in-image)
-   - [Cortical Surface Registration](#cortical_surface_registration)
+   - [Cortical Surface Registration](#cortical-surface-registration)
  - [Foundation Model for Registration](#foundation-model-for-registration)
  - [Registration Related/Based Application](#registration-relatedbased-application)
     - [Segmentation](#segmentation)
