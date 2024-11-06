@@ -181,7 +181,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [MICCAI Workshop 2023] Unsupervised Learning of Cortical Surface Registration Using Spherical Harmonics [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-46914-5_6)
 * [MedIA 2024] SUGAR: Spherical ultrafast graph attention framework for cortical surface registration [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841524000471) [[code]](https://github.com/pBFSLab/SUGAR)
 * [MedIA 2024] Longitudinally consistent registration and parcellation of cortical surfaces using semi-supervised learning [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S136184152400118X) [[code]](https://github.com/BRAIN-Lab-UNC/LongitudinalJointRegParc)
-
+* [MedIA 2024] JOSA: Joint surface-based registration and atlas construction of brain geometry and function [[pdf]](https://arxiv.org/pdf/2311.08544) [[code]](https://voxelmorph.net)
 
 
 ### Foundation Model for Registration 
