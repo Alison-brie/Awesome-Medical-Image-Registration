@@ -189,6 +189,8 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [ArXiv 2023] UAE: Universal Anatomical Embedding on Multi-modality Medical Images [[pdf]](https://arxiv.org/pdf/2311.15111.pdf) [[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
 * [MICCAI 2024] uniGradICON: A Foundation Model for Medical Image Registration [[pdf]](https://arxiv.org/abs/2403.05780) [[code]](https://github.com/uncbiag/uniGradICON)
 * [MICCAI 2024 Workshop] multiGradICON: A Foundation Model for Multimodal Medical Image Registration [[pdf]](https://arxiv.org/abs/2408.00221) [[code]](https://github.com/uncbiag/uniGradICON)
+* [Arxiv 2024] Learning General-purpose Biomedical Volume Representations using Randomized Synthesis [[pdf]](https://arxiv.org/abs/2411.02372)[[code]](https://github.com/neel-dey/anatomix)
+* [Arxiv 2024] UniMo: Universal Motion Correction For Medical Images without Network Retraining [[pdf]](https://arxiv.org/abs/2409.14204) [[code]](https://github.com/IntelligentImaging/UNIMO/)
 
 
 
