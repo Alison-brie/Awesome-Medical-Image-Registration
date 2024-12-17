@@ -3,6 +3,10 @@
 
 :wave: Hi! This repo is a collection of AWESOME things about :star2:**Medical Image Registration**:star2:, including useful materials, papers, code. Feel free to star and fork.
 
+For researchers who are new to registration, it is recommended to read papers in **chronological order** to study the **evolution of research trends**.
+
+
+
 TODO:
 - [ ] Add a list organs in medical image registration
 
