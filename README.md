@@ -144,12 +144,17 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 
 ### Registration on Specific Task
 #### Multi-Modality Registration
+##### Classic
+* [MedIA 2011] MIND: Modality independent neighborhood descriptor for multi-modal deformable registration [[pdf]](http://svg.dmi.unict.it/miss14/MISS2014-ReadingGroup00-All-Paper.pdf)
+* [MedIA 2012] DRAMMS: Deformable registration via attribute matching and mutual-saliency weighting [[pdf]](https://pmc.ncbi.nlm.nih.gov/articles/PMC3012150/)
+* [MICCAI 2013] Towards realtime multimodal fusion for image-guided interventions using self-similarities [[pdf]](https://www.researchgate.net/profile/Mattias-Heinrich/publication/260127659_Lecture_Notes_in_Computer_Science/links/0deec52eb61e9a9fdc000000/Lecture-Notes-in-Computer-Science.pdf)
+* [MedIA 2014] Automatic ultrasound–MRI registration for neurosurgery using the 2D and 3D LC2 Metric [[pdf]](https://campar.cs.tum.edu/pub/fuerst2014media/fuerst2014media.pdf)
+##### Learning-based
 * [IPMI 2019] Unsupervised deformable registration for multi-modal images via disentangled representations [[pdf]](https://link.springer.com/chapter/10.1007/978-3-030-20351-1_19)
 * [MICCAI 2019] Synthesis and inpainting-based MR-CT registration for image-guided thermal ablation of liver tumors [[pdf]](https://link.springer.com/chapter/10.1007/978-3-030-32254-0_57)
 * [MICCAI 2020] Adversarial uni-and multi-modal stream networks for multimodal image registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-030-59716-0_22)
 * [NeurIPS 2020] CoMIR: Contrastive multimodal image representation for registration [[pdf]](https://proceedings.neurips.cc/paper/2020/hash/d6428eecbe0f7dff83fc607c5044b2b9-Abstract.html) [[code]](https://github.com/MIDA-group/CoMIR)
 * [TPMAI 2021] SymReg-GAN: symmetric image registration with generative adversarial networks [[pdf]](https://ieeexplore.ieee.org/abstract/document/9440692)
-* [MedIA 2022] Deformable MR-CT image registration using an unsupervised, dual-channel network for neurosurgical guidance [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841521003376)
 * [MICCAI 2022] ContraReg: Contrastive Learning of Multi-modality Unsupervised Deformable Image Registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-16446-0_7) [[code]](https://github.com/jmtzt/ContraReg)
 * [MICCAI 2023] DISA: DIfferentiable Similarity Approximation for Universal Multimodal Registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_72) [[code]](https://github.com/ImFusionGmbH/DISA-universal-multimodal-registration)
 * [CVPR 2024] Modality-Agnostic Structural Image Representation Learning for Deformable Multi-Modality Medical Image Registration [[pdf]](https://arxiv.org/abs/2402.18933) 
