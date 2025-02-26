@@ -157,6 +157,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [TPMAI 2021] SymReg-GAN: symmetric image registration with generative adversarial networks [[pdf]](https://ieeexplore.ieee.org/abstract/document/9440692)
 * [MICCAI 2022] ContraReg: Contrastive Learning of Multi-modality Unsupervised Deformable Image Registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-16446-0_7) [[code]](https://github.com/jmtzt/ContraReg)
 * [MICCAI 2023] DISA: DIfferentiable Similarity Approximation for Universal Multimodal Registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_72) [[code]](https://github.com/ImFusionGmbH/DISA-universal-multimodal-registration)
+* [CVPR 2023] Indescribable Multi-modal Spatial Evaluator [[pdf]](https://openaccess.thecvf.com/content/CVPR2023/papers/Kong_Indescribable_Multi-Modal_Spatial_Evaluator_CVPR_2023_paper.pdf) [[code]](https://github.com/Kid-Liet/IMSE)
 * [CVPR 2024] Modality-Agnostic Structural Image Representation Learning for Deformable Multi-Modality Medical Image Registration [[pdf]](https://arxiv.org/abs/2402.18933) 
 
 
@@ -197,8 +198,9 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [TMI 2022] SynthMorph: learning contrast-invariant registration without acquired images [[pdf]](https://arxiv.org/abs/2004.10282)  [[code]](https://martinos.org/malte/synthmorph/)
 * [ArXiv 2023] UAE: Universal Anatomical Embedding on Multi-modality Medical Images [[pdf]](https://arxiv.org/pdf/2311.15111.pdf) [[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
 * [MICCAI 2024] uniGradICON: A Foundation Model for Medical Image Registration [[pdf]](https://arxiv.org/abs/2403.05780) [[code]](https://github.com/uncbiag/uniGradICON)
-* [Arxiv 2024] Learning General-purpose Biomedical Volume Representations using Randomized Synthesis [[pdf]](https://arxiv.org/abs/2411.02372)[[code]](https://github.com/neel-dey/anatomix)
 * [Arxiv 2024] UniMo: Universal Motion Correction For Medical Images without Network Retraining [[pdf]](https://arxiv.org/abs/2409.14204) [[code]](https://github.com/IntelligentImaging/UNIMO/)
+* [ICLR 2025] Learning General-purpose Biomedical Volume Representations using Randomized Synthesis [[pdf]](https://arxiv.org/abs/2411.02372)[[code]](https://github.com/neel-dey/anatomix)
+
 
 
 
