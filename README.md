@@ -57,6 +57,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
     - [Segmentation](#segmentation)
     - [Template Construction](#template-construction)
     - [Cardiac Motion Estimation](#cardiac-motion-estimation)
+    - [Self-supervised Pre-training](#self-supervised-pre-training)
 
     
 
@@ -226,8 +227,12 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [MedIA 2023] Generative myocardial motion tracking via latent space exploration with biomechanics-informed prior [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841522003103) [[code]](https://github.com/cq615/BIGM-motion-tracking)
 * [MICCAI 2024] TLRN: Temporal Latent Residual Networks For Large Deformation Image Registration [[pdf]](https://arxiv.org/abs/2407.11219) [[code]](https://github.com/nellie689/TLRN)
 
+#### Self-supervised Pre-training
+* [CVPR 2023] Geometric Visual Similarity Learning in 3D Medical Image Self-supervised Pre-training [[pdf]](https://arxiv.org/abs/2303.00874) [[code]](https://github.com/YutingHe-list/GVSL)
+* [TPAMI 2025] Homeomorphism Prior for False Positive and Negative Problem in Medical Image Dense Contrastive Representation Learning [[pdf]](https://www.arxiv.org/abs/2502.05282) [[code]](https://github.com/YutingHe-list/GEMINI) 
 
-## Chanllenges
+
+## Challenges
  - [Oncoreg](https://learn2reg.grand-challenge.org/oncoreg/)
  - [Learn2Reg 2024](https://learn2reg.grand-challenge.org/learn2reg-2024/)
  - [Learn2Reg 2023](https://learn2reg.grand-challenge.org/learn2reg-2023/)
