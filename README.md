@@ -146,9 +146,9 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 ### Registration on Specific Task
 #### Multi-Modality Registration
 ##### Classic
-* [MedIA 2011] MIND: Modality independent neighborhood descriptor for multi-modal deformable registration [[pdf]](http://svg.dmi.unict.it/miss14/MISS2014-ReadingGroup00-All-Paper.pdf)[[code]](https://github.com/mattiaspaul/deedsBCV)
+* [MedIA 2011] MIND: Modality independent neighborhood descriptor for multi-modal deformable registration [[pdf]](http://svg.dmi.unict.it/miss14/MISS2014-ReadingGroup00-All-Paper.pdf) [[code]](https://github.com/mattiaspaul/deedsBCV)
 * [MedIA 2012] DRAMMS: Deformable registration via attribute matching and mutual-saliency weighting [[pdf]](https://pmc.ncbi.nlm.nih.gov/articles/PMC3012150/)
-* [MICCAI 2013] Towards realtime multimodal fusion for image-guided interventions using self-similarities [[pdf]](https://www.researchgate.net/profile/Mattias-Heinrich/publication/260127659_Lecture_Notes_in_Computer_Science/links/0deec52eb61e9a9fdc000000/Lecture-Notes-in-Computer-Science.pdf)[[code]](https://github.com/mattiaspaul/deedsBCV)
+* [MICCAI 2013] Towards realtime multimodal fusion for image-guided interventions using self-similarities [[pdf]](https://www.researchgate.net/profile/Mattias-Heinrich/publication/260127659_Lecture_Notes_in_Computer_Science/links/0deec52eb61e9a9fdc000000/Lecture-Notes-in-Computer-Science.pdf) [[code]](https://github.com/mattiaspaul/deedsBCV)
 * [MedIA 2014] Automatic ultrasound–MRI registration for neurosurgery using the 2D and 3D LC2 Metric [[pdf]](https://campar.cs.tum.edu/pub/fuerst2014media/fuerst2014media.pdf)
 ##### Learning-based
 * [IPMI 2019] Unsupervised deformable registration for multi-modal images via disentangled representations [[pdf]](https://link.springer.com/chapter/10.1007/978-3-030-20351-1_19)
