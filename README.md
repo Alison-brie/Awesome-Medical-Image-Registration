@@ -41,6 +41,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
     - [Original CNN model for Registration](#original-cnn-model-for-registration)
     - [Pyramid CNN for Registration](#pyramid-cnn-for-registration)
     - [Transformer for Registration](#transformer-for-registration)
+    - [MLP for Registration](#mlp-for-registration)
     - [Iterative Refinement for Registration](#iterative-refinement-for-registration)
  - [Deep Diffeomorphic Registration](#deep-diffeomorphic-registration)
  - [Joint Affine and Deformable Registration](#joint-affine-and-deformable-registration)
@@ -85,6 +86,8 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [MICCAI 2022] XMorpher: Full Transformer for Deformable Medical Image Registration via Cross Attention [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-16446-0_21) [[code]](https://github.com/Solemoon/XMorpher)
 * [CVPR 2022] Affine Medical Image Registration with Coarse-to-Fine Vision Transformer [[pdf]](https://arxiv.org/abs/2203.15216) [[code]](https://github.com/cwmok/C2FViT)
 * [TMI 2023] TransMatch: a transformer-based multilevel dual-stream feature matching network for unsupervised deformable image registration [[pdf]](https://ieeexplore.ieee.org/abstract/document/10158729) [[code]](https://github.com/tzayuan/TransMatch_TMI)
+
+#### MLP for Registration
 * [CVPR 2024] Correlation-aware Coarse-to-fine MLPs for Deformable Medical Image Registration [[pdf]](https://openaccess.thecvf.com/content/CVPR2024/papers/Meng_Correlation-aware_Coarse-to-fine_MLPs_for_Deformable_Medical_Image_Registration_CVPR_2024_paper.pdf) [[code]](https://github.com/MungoMeng/Registration-CorrMLP)
 
 #### Iterative Refinement for Registration
