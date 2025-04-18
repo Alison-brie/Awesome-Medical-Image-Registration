@@ -1,14 +1,14 @@
 
 # Awesome Medical Image Registration [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Alison-brie/Awesome-ImageRegistration/)
 
-:wave: Hi! This repo is a collection of AWESOME things about :star2:**Medical Image Registration**:star2:, including useful materials, papers, code. Feel free to star and fork.
+:wave: Hi! This repo is a collection of AWESOME things about :star2:**Medical Image Registration**:star2:, including useful materials, papers, code. Please feel free to start and fork.
 
 For researchers who are new to registration, it is recommended to read papers in **chronological order** to study the **evolution of research trends**.
 
 
 
 TODO:
-- [ ] Add a list organs in medical image registration
+- [ ] Add a list of organs in medical image registration
 
 
 
@@ -38,22 +38,24 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 
 ### Table of Contents
  - [Original and Fancier Network Architecture](#original-and-fancier-network-architecture)
-    - [Original CNN model for Registration](#original-cnn-model-for-registration)
+    - [Original CNN for Registration](#original-cnn-for-registration)
     - [Pyramid CNN for Registration](#pyramid-cnn-for-registration)
-    - [Transformer for Registration](#transformer-for-registration)
-    - [MLP for Registration](#mlp-for-registration)
+    - [Transformer and MLP for Registration](#transformer-and-mlp-for-registration)
     - [Iterative Refinement for Registration](#iterative-refinement-for-registration)
- - [Deep Diffeomorphic Registration](#deep-diffeomorphic-registration)
+    - [Spatial-awareness Registration](#spatial-awareness-registration)
+ - [Diffeomorphic and Efficient Registration](#diffeomorphic-and-efficient-registration)
+    - [Deep Diffeomorphic Registration](#deep-diffeomorphic-registration)
+    - [Deep Efficient Registration](#deep-efficient-registration)
  - [Joint Affine and Deformable Registration](#joint-affine-and-deformable-registration)
  - [Hyperparameter Learning in Registration](#hyperparameter-learning-in-registration)
  - [Discrete Registration and Instance Optimization](#discrete-registration-and-instance-optimization)
+ - [Foundation Model for Registration](#foundation-model-for-registration)
  - [Registration on Specific Task](#registration-on-specific-task)
    - [Multi-Modality Registration](#multi-modality-registration)
    - [2D-3D Registration](#2d-3d-registration)
    - [Histological Image Registration](#histological-image-registration)
    - [Registration with Tumor in Image](#registration-with-tumor-in-image)
    - [Cortical Surface Registration](#cortical-surface-registration)
- - [Foundation Model for Registration](#foundation-model-for-registration)
  - [Registration Related/Based Application](#registration-relatedbased-application)
     - [Segmentation](#segmentation)
     - [Template Construction](#template-construction)
@@ -64,7 +66,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 
 
 ### Original and Fancier Network Architecture
-#### Original CNN model for Registration
+#### Original CNN for Registration
 * [MICCAI Workshop 2017] End-to-end unsupervised deformable image registration with a convolutional neural network [[pdf]](https://arxiv.org/pdf/1704.06065)
 * [CVPR 2018] An Unsupervised Learning Model for Deformable Medical Image Registration [[pdf]](https://arxiv.org/abs/1802.02604) [[code]](https://github.com/voxelmorph/voxelmorph)
 * [Arxiv 2018] Inverse-Consistent Deep Networks for Unsupervised Deformable Image Registration [[pdf]](https://arxiv.org/pdf/1809.03443) [[code]](https://github.com/zhangjun001/ICNet)
@@ -72,46 +74,59 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [TMI 2019] VoxelMorph: A Learning Framework for Deformable Medical Image Registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-030-32226-7_19) [[code]](https://github.com/boahK/MEDIA_CycleMorph)
 
 #### Pyramid CNN for Registration
-* [ICCV 2019] Recursive Cascaded Networks for Unsupervised Medical Image Registration [[pdf]](https://arxiv.org/abs/1907.12353) [[code]](https://github.com/microsoft/Recursive-Cascaded-Networks)
 * [MICCAI 2019] Dual-Stream Pyramid Registration Network [[pdf]](https://arxiv.org/pdf/1909.11966) [[code]](https://github.com/kangmiao15/Dual-Stream-PRNet-Plus)
 * [MICCAI 2020] Large Deformation Diffeomorphic Image Registration with Laplacian Pyramid Networks [[pdf]](https://arxiv.org/abs/2006.16148) [[code]](https://github.com/cwmok/LapIRN)
 * [TMI 2021] Learning a model-driven variational network for deformable image registration [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9525092) [[code]](https://github.com/xi-jia/Learning-a-Model-Driven-Variational-Network-for-Deformable-Image-Registration)
 * [MICCAI 2022] NICE-Net: a Non-Iterative Coarse-to-finE registration Network for deformable image registration [[pdf]](https://arxiv.org/abs/2206.12596) [[code]](https://github.com/MungoMeng/Registration-NICE-Net)
 * [TMI 2023] Self-Distilled Hierarchical Network for Unsupervised Deformable Image Registration [[pdf]](https://ieeexplore.ieee.org/abstract/document/10042453) [[code]](https://github.com/Blcony/SDHNet)
+* [TMI 2024] GroupMorph: Medical Image Registration via Grouping Network with Contextual Fusion [[pdf]](https://ieeexplore.ieee.org/document/10530124) [[code]](https://github.com/TVayne/GroupMorph)
 
-#### Transformer for Registration
+
+#### Transformer and MLP for Registration
 * [MedIA 2022] TransMorph: Transformer for unsupervised medical image registration [[pdf]](https://arxiv.org/abs/2111.10480) [[code]](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration)
 * [MICCAI 2022] Swin-VoxelMorph: A Symmetric Unsupervised Learning Model for Deformable Medical Image Registration Using Swin Transformer [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-16446-0_8) [[code]](https://github.com/CJSOrange/DMR-Deformer)
 * [MICCAI 2022] Deformer: Towards displacement field learning for unsupervised medical image registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-16446-0_14) [[code]](https://github.com/YongpeiZhu/Swin-VoxelMorph)
 * [MICCAI 2022] XMorpher: Full Transformer for Deformable Medical Image Registration via Cross Attention [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-16446-0_21) [[code]](https://github.com/Solemoon/XMorpher)
 * [CVPR 2022] Affine Medical Image Registration with Coarse-to-Fine Vision Transformer [[pdf]](https://arxiv.org/abs/2203.15216) [[code]](https://github.com/cwmok/C2FViT)
 * [TMI 2023] TransMatch: a transformer-based multilevel dual-stream feature matching network for unsupervised deformable image registration [[pdf]](https://ieeexplore.ieee.org/abstract/document/10158729) [[code]](https://github.com/tzayuan/TransMatch_TMI)
-
-#### MLP for Registration
+* [CVPR 2024] H-ViT: A Hierarchical Vision Transformer for Deformable Image Registration [[pdf]](https://openaccess.thecvf.com/content/CVPR2024/papers/Ghahremani_H-ViT_A_Hierarchical_Vision_Transformer_for_Deformable_Image_Registration_CVPR_2024_paper.pdf) [[code]](https://github.com/mogvision/hvit)
 * [CVPR 2024] Correlation-aware Coarse-to-fine MLPs for Deformable Medical Image Registration [[pdf]](https://openaccess.thecvf.com/content/CVPR2024/papers/Meng_Correlation-aware_Coarse-to-fine_MLPs_for_Deformable_Medical_Image_Registration_CVPR_2024_paper.pdf) [[code]](https://github.com/MungoMeng/Registration-CorrMLP)
 
+
 #### Iterative Refinement for Registration
+* [ICCV 2019] Recursive Cascaded Networks for Unsupervised Medical Image Registration [[pdf]](https://arxiv.org/abs/1907.12353) [[code]](https://github.com/microsoft/Recursive-Cascaded-Networks)
 * [TPAMI 2021] Learning Deformable Image Registration from Optimization: Perspective, Modules, Bilevel Training and Beyond [[pdf]](https://arxiv.org/abs/2004.14557) [[code]](https://github.com/Alison-brie/MultiPropReg)
 * [MICCAI 2023] PIViT: Large Deformation Image Registration with Pyramid-Iterative Vision Transformer [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_57) [[code]](https://github.com/Torbjorn1997/PIViT)
 * [CVPR 2024] IIRP-Net: Iterative Inference Residual Pyramid Network for Enhanced Image Registration [[pdf]](https://openaccess.thecvf.com/content/CVPR2024/papers/Ma_IIRP-Net_Iterative_Inference_Residual_Pyramid_Network_for_Enhanced_Image_Registration_CVPR_2024_paper.pdf) [[code]](https://github.com/Torbjorn1997/IIRP-Net)
-* [TMI 2024] GroupMorph: Medical Image Registration via Grouping Network with Contextual Fusion [[pdf]](https://ieeexplore.ieee.org/document/10530124) [[code]](https://github.com/TVayne/GroupMorph)
+
+  
+#### Spatial-awareness Registration 
+* [IEEE TNNLS 2025] Spatially covariant image registration with text prompts [[pdf]](https://arxiv.org/abs/2311.15607) [[code]](https://github.com/tinymilky/TextSCF)
+* [CVPR 2025] SACB-Net: Spatial-awareness Convolutions for Medical Image Registration [[pdf]](https://arxiv.org/pdf/2503.19592) [[code]](https://github.com/x-xc/SACB_Net)
+  
 
 
 
-### Deep Diffeomorphic Registration 
+### Diffeomorphic and Efficient Registration 
+#### Deep Diffeomorphic Registration  
 * [MICCAI 2018] Unsupervised Learning for Fast Probabilistic Diffeomorphic Registration [[pdf]](https://arxiv.org/abs/1805.04605) [[code]](https://github.com/voxelmorph/voxelmorph)
 * [TMI 2019] Learning a Probabilistic Model for Diffeomorphic Registration [[pdf]](https://arxiv.org/pdf/1812.07460)
 * [MedIA 2019] Unsupervised Learning of Probabilistic Diffeomorphic Registration for Images and Surfaces [[pdf]](https://arxiv.org/abs/1903.03545) [[code]](https://github.com/voxelmorph/voxelmorph) 
 * [NeurIPS 2019] Region-specific Diffeomorphic Metric Mapping [[pdf]](https://drive.google.com/file/d/1kIuunw6FP2ek8ZsLw92zL6RJw02YU7Nx) [[code]](https://github.com/uncbiag/easyreg)
 * [CVPR 2019] Metric Learning for Image Registration [[pdf]](https://drive.google.com/file/d/1kIuunw6FP2ek8ZsLw92zL6RJw02YU7Nx) [[code]](https://github.com/uncbiag/mermaid)
-* [CVPR 2020] DeepFLASH: An Efficient Network for Learning-based Medical Image Registration [[pdf]](https://arxiv.org/pdf/2004.02097)  [[code]](https://github.com/jw4hv/deepflash)
 * [CVPR 2020] Fast Symmetric Diffeomorphic Image Registration with Convolutional Neural Networks [[pdf]](https://arxiv.org/abs/2003.09514) [[code]](https://github.com/cwmok/Fast-Symmetric-Diffeomorphic-Image-Registration-with-Convolutional-Neural-Networks)
 * [ICCV 2023] ICON: Learning Regular Maps Through Inverse Consistency [[pdf]](https://arxiv.org/pdf/2105.04459) [[code]](https://github.com/uncbiag/ICON)
 * [CVPR 2023] GradICON: Approximate Diffeomorphisms via Gradient Inverse Consistency [[pdf]](https://drive.google.com/file/d/1j8u5n50knQUxhnHp1OMGEwsl8CX-lODX) [[code]](https://github.com/uncbiag/ICON)
 * [MedIA 2019] R2Net: Efficient and flexible diffeomorphic image registration using Lipschitz continuous residual networks [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841523001779) [[code]](https://github.com/ankitajoshi15/R2Net)
 * [ECCV 2024] NePhi: Neural Deformation Fields for Approximately Diffeomorphic Medical Image Registration [[pdf]](https://arxiv.org/abs/2309.07322) [[code]](https://github.com/uncbiag/NePhi)
-* [ArXiv 2024] SITReg: Multi-resolution architecture for symmetric, inverse consistent, and topology preserving image registration [[pdf]](https://arxiv.org/abs/2303.10211) [[code]](https://github.com/honkamj/SITReg?tab=readme-ov-file)
+* [MELBA 2024] SITReg: Multi-resolution architecture for symmetric, inverse consistent, and topology preserving image registration [[pdf]](https://arxiv.org/abs/2303.10211) [[code]](https://github.com/honkamj/SITReg?tab=readme-ov-file)
+* [CVPR 2025] CARL: A Framework for Equivariant Image Registration [[pdf]](https://arxiv.org/pdf/2405.16738)
 
+
+#### Deep Efficient Registration  
+* [CVPR 2020] DeepFLASH: An Efficient Network for Learning-based Medical Image Registration [[pdf]](https://arxiv.org/pdf/2004.02097)  [[code]](https://github.com/jw4hv/deepflash)
+* [AAAI 2023] Fourier-Net: Fast Image Registration with Band-Limited Deformation [[pdf]](https://arxiv.org/pdf/2211.16342)  [[code]](https://github.com/xi-jia/Fourier-Net)
+* [MICCAI2024] WiNet: Wavelet-based Incremental Learning for Efficient Medical Image Registration [[pdf]](https://arxiv.org/abs/2407.13426)  [[code]](https://github.com/x-xc/WiNet)
 
 
 
@@ -142,7 +157,12 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [TMI 2024] ConvexAdam: Self-Configuring Dual-Optimisation-Based 3D Multitask Medical Image Registration [[pdf]](https://ieeexplore.ieee.org/abstract/document/10681158) [[code]](https://github.com/multimodallearning/convexAdam)
 
 
-
+### Foundation Model for Registration 
+* [TMI 2022] SynthMorph: learning contrast-invariant registration without acquired images [[pdf]](https://arxiv.org/abs/2004.10282)  [[code]](https://martinos.org/malte/synthmorph/)
+* [ArXiv 2023] UAE: Universal Anatomical Embedding on Multi-modality Medical Images [[pdf]](https://arxiv.org/pdf/2311.15111.pdf) [[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
+* [MICCAI 2024] uniGradICON: A Foundation Model for Medical Image Registration [[pdf]](https://arxiv.org/abs/2403.05780) [[code]](https://github.com/uncbiag/uniGradICON)
+* [Arxiv 2024] UniMo: Universal Motion Correction For Medical Images without Network Retraining [[pdf]](https://arxiv.org/abs/2409.14204) [[code]](https://github.com/IntelligentImaging/UNIMO/)
+* [ICLR 2025] Learning General-purpose Biomedical Volume Representations using Randomized Synthesis [[pdf]](https://arxiv.org/abs/2411.02372)[[code]](https://github.com/neel-dey/anatomix)
 
 
 
@@ -187,23 +207,15 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 
 
 #### Cortical Surface Registration
-* [MICCAI Workshop 2020] Unsupervised Learning for Spherical Surface Registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-030-59861-7_38) [[code]](https://github.com/BRAIN-Lab-UNC/S3Reg)
 * [NeuroImage 2020] Cortical surface registration using unsupervised learning [[pdf]](https://arxiv.org/abs/2004.04617) [[code]](https://github.com/voxelmorph/spheremorph)
 * [TMI 2021] S3Reg: Superfast Spherical Surface Registration Based on Deep Learning [[pdf]](https://ieeexplore.ieee.org/abstract/document/9389746/citations#citations) [[code]](https://github.com/BRAIN-Lab-UNC/S3Reg)
 * [MICCAI 2022] A Deep-Discrete Learning Framework for Spherical Surface Registration [[pdf]](https://arxiv.org/abs/2203.12999) [[code]](https://github.com/mohamedasuliman/DDR)
-* [MICCAI Workshop 2022] GeoMorph: Geometric Deep Learning for Cortical Surface Registration [[pdf]](https://proceedings.mlr.press/v194/suliman22a.html) [[code]](https://github.com/mohamedasuliman/GeoMorph)
-* [MICCAI Workshop 2023] Unsupervised Learning of Cortical Surface Registration Using Spherical Harmonics [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-46914-5_6)
 * [MedIA 2024] SUGAR: Spherical ultrafast graph attention framework for cortical surface registration [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841524000471) [[code]](https://github.com/pBFSLab/SUGAR)
 * [MedIA 2024] Longitudinally consistent registration and parcellation of cortical surfaces using semi-supervised learning [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S136184152400118X) [[code]](https://github.com/BRAIN-Lab-UNC/LongitudinalJointRegParc)
 * [MedIA 2024] JOSA: Joint surface-based registration and atlas construction of brain geometry and function [[pdf]](https://arxiv.org/pdf/2311.08544) [[code]](https://voxelmorph.net)
 
 
-### Foundation Model for Registration 
-* [TMI 2022] SynthMorph: learning contrast-invariant registration without acquired images [[pdf]](https://arxiv.org/abs/2004.10282)  [[code]](https://martinos.org/malte/synthmorph/)
-* [ArXiv 2023] UAE: Universal Anatomical Embedding on Multi-modality Medical Images [[pdf]](https://arxiv.org/pdf/2311.15111.pdf) [[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
-* [MICCAI 2024] uniGradICON: A Foundation Model for Medical Image Registration [[pdf]](https://arxiv.org/abs/2403.05780) [[code]](https://github.com/uncbiag/uniGradICON)
-* [Arxiv 2024] UniMo: Universal Motion Correction For Medical Images without Network Retraining [[pdf]](https://arxiv.org/abs/2409.14204) [[code]](https://github.com/IntelligentImaging/UNIMO/)
-* [ICLR 2025] Learning General-purpose Biomedical Volume Representations using Randomized Synthesis [[pdf]](https://arxiv.org/abs/2411.02372)[[code]](https://github.com/neel-dey/anatomix)
+
 
 
 
