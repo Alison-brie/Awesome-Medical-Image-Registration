@@ -102,6 +102,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
   
 #### Spatial-awareness Registration 
 * [TNNLS 2024] Spatially covariant image registration with text prompts [[pdf]](https://arxiv.org/abs/2311.15607) [[code]](https://github.com/tinymilky/TextSCF)
+* [ECCV 2024] Adaptive Correspondence Scoring for Unsupervised Medical Image Registration [[pdf]](https://arxiv.org/pdf/2312.00837) [[code]](https://github.com/Voldemort108X/AdaCS)
 * [CVPR 2025] SACB-Net: Spatial-awareness Convolutions for Medical Image Registration [[pdf]](https://arxiv.org/pdf/2503.19592) [[code]](https://github.com/x-xc/SACB_Net)
   
 
@@ -155,7 +156,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [MICCAI Workshop 2022] Voxelmorph++ going beyond the cranial vault with keypoint supervision and multi-channel instance optimisation [[pdf]](https://openreview.net/pdf?id=SrlgSXA3qAY) [[code]](https://github.com/mattiaspaul/VoxelMorphPlusPlus)
 * [MICCAI 2023] SAMConvex: Fast Discrete Optimization for CT Registration using Self-supervised Anatomical Embedding and Correlation Pyramid [[pdf]](https://arxiv.org/abs/2307.09727) [[code]](https://github.com/alibaba-damo-academy/samconvex) 
 * [TMI 2024] ConvexAdam: Self-Configuring Dual-Optimisation-Based 3D Multitask Medical Image Registration [[pdf]](https://ieeexplore.ieee.org/abstract/document/10681158) [[code]](https://github.com/multimodallearning/convexAdam)
-
+* [MICCAI 2024] On-the-Fly Guidance Training for Medical Image Registration [[pdf]](https://arxiv.org/pdf/2308.15216) [[code]](https://github.com/cilix-ai/on-the-fly-guidance)
 
 ### Foundation Model for Registration 
 * [TMI 2022] SynthMorph: learning contrast-invariant registration without acquired images [[pdf]](https://arxiv.org/abs/2004.10282)  [[code]](https://martinos.org/malte/synthmorph/)
@@ -204,6 +205,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 #### Registration with Tumor in Image
 * [MICCAI 2022] Unsupervised Deformable Image Registration with Absent Correspondences in Pre-operative and Post-Recurrence Brain Tumor MRI Scans [[pdf]](https://arxiv.org/abs/2206.03900) [[code]](https://github.com/cwmok/DIRAC)
 * [ICCV 2023] Preserving Tumor Volumes for Unsupervised Medical Image Registration [[pdf]](https://arxiv.org/abs/2309.10153) [[code]](https://github.com/dddraxxx/Medical-Reg-with-Volume-Preserving)
+* [MICCAI 2024] Noise Removed Inconsistency Activation Map for Unsupervised Registration of Brain Tumor MRI between Pre-operative and Follow-up Phases [[pdf]](https://papers.miccai.org/miccai-2024/paper/1262_paper.pdf) [[code]](https://github.com/chongweiwu/NR-IAM)
 
 
 #### Cortical Surface Registration
