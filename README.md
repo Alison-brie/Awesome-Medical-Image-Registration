@@ -101,7 +101,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 
   
 #### Spatial-awareness Registration 
-* [IEEE TNNLS 2025] Spatially covariant image registration with text prompts [[pdf]](https://arxiv.org/abs/2311.15607) [[code]](https://github.com/tinymilky/TextSCF)
+* [TNNLS 2024] Spatially covariant image registration with text prompts [[pdf]](https://arxiv.org/abs/2311.15607) [[code]](https://github.com/tinymilky/TextSCF)
 * [CVPR 2025] SACB-Net: Spatial-awareness Convolutions for Medical Image Registration [[pdf]](https://arxiv.org/pdf/2503.19592) [[code]](https://github.com/x-xc/SACB_Net)
   
 
@@ -126,7 +126,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 #### Deep Efficient Registration  
 * [CVPR 2020] DeepFLASH: An Efficient Network for Learning-based Medical Image Registration [[pdf]](https://arxiv.org/pdf/2004.02097)  [[code]](https://github.com/jw4hv/deepflash)
 * [AAAI 2023] Fourier-Net: Fast Image Registration with Band-Limited Deformation [[pdf]](https://arxiv.org/pdf/2211.16342)  [[code]](https://github.com/xi-jia/Fourier-Net)
-* [MICCAI2024] WiNet: Wavelet-based Incremental Learning for Efficient Medical Image Registration [[pdf]](https://arxiv.org/abs/2407.13426)  [[code]](https://github.com/x-xc/WiNet)
+* [MICCAI 2024] WiNet: Wavelet-based Incremental Learning for Efficient Medical Image Registration [[pdf]](https://arxiv.org/abs/2407.13426)  [[code]](https://github.com/x-xc/WiNet)
 
 
 
