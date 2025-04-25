@@ -98,7 +98,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [ICCV 2019] Recursive Cascaded Networks for Unsupervised Medical Image Registration [[pdf]](https://arxiv.org/abs/1907.12353) [[code]](https://github.com/microsoft/Recursive-Cascaded-Networks)
 * [TPAMI 2021] Learning Deformable Image Registration from Optimization: Perspective, Modules, Bilevel Training and Beyond [[pdf]](https://arxiv.org/abs/2004.14557) [[code]](https://github.com/Alison-brie/MultiPropReg)
 * [MICCAI 2023] PIViT: Large Deformation Image Registration with Pyramid-Iterative Vision Transformer [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_57) [[code]](https://github.com/Torbjorn1997/PIViT)
-* [MICCAI 2023] Recursive Deformable Pyramid Network for Unsupervised Medical Image Registration [[pdf]](https://ieeexplore.ieee.org/document/10423043) [[code]](https://github.com/ZAX130/RDP)
+* [TMI 2024] Recursive Deformable Pyramid Network for Unsupervised Medical Image Registration [[pdf]](https://ieeexplore.ieee.org/document/10423043) [[code]](https://github.com/ZAX130/RDP)
 * [CVPR 2024] IIRP-Net: Iterative Inference Residual Pyramid Network for Enhanced Image Registration [[pdf]](https://openaccess.thecvf.com/content/CVPR2024/papers/Ma_IIRP-Net_Iterative_Inference_Residual_Pyramid_Network_for_Enhanced_Image_Registration_CVPR_2024_paper.pdf) [[code]](https://github.com/Torbjorn1997/IIRP-Net)
 
   
