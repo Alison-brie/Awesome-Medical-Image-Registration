@@ -50,6 +50,8 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
  - [Hyperparameter Learning in Registration](#hyperparameter-learning-in-registration)
  - [Discrete Registration and Instance Optimization](#discrete-registration-and-instance-optimization)
  - [Foundation Model for Registration](#foundation-model-for-registration)
+   - [Universal Registration Model](#universal-registration-model)
+   - [Pretrain Foundation Model Meets Registration](#pretrain-foundation-model-meets-registration)
  - [Registration on Specific Task](#registration-on-specific-task)
    - [Multi-Modality Registration](#multi-modality-registration)
    - [2D-3D Registration](#2d-3d-registration)
@@ -62,7 +64,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
     - [Cardiac Motion Estimation](#cardiac-motion-estimation)
     - [Self-supervised Pre-training](#self-supervised-pre-training)
 
-    
+
 
 
 ### Original and Fancier Network Architecture
@@ -161,17 +163,24 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [TMI 2024] ConvexAdam: Self-Configuring Dual-Optimisation-Based 3D Multitask Medical Image Registration [[pdf]](https://ieeexplore.ieee.org/abstract/document/10681158) [[code]](https://github.com/multimodallearning/convexAdam)
 * [MICCAI 2024] On-the-Fly Guidance Training for Medical Image Registration [[pdf]](https://arxiv.org/pdf/2308.15216) [[code]](https://github.com/cilix-ai/on-the-fly-guidance)
 
+
+
+
 ### Foundation Model for Registration 
 #### Universal Registration Model
 * [MICCAI 2024] uniGradICON: A Foundation Model for Medical Image Registration [[pdf]](https://arxiv.org/abs/2403.05780) [[code]](https://github.com/uncbiag/uniGradICON)
 * [Arxiv 2024] UniMo: Universal Motion Correction For Medical Images without Network Retraining [[pdf]](https://arxiv.org/abs/2409.14204) [[code]](https://github.com/IntelligentImaging/UNIMO/)
 * [ICLR 2025] Learning General-purpose Biomedical Volume Representations using Randomized Synthesis [[pdf]](https://arxiv.org/abs/2411.02372)[[code]](https://github.com/neel-dey/anatomix)
 * [MELBA 2025] BrainMorph: A Foundational Keypoint Model for Robust and Flexible Brain MRI Registration [[pdf]](https://arxiv.org/abs/2405.14019v3)[[code]](https://github.com/alanqrwang/brainmorph)
-#### Vision Foundation Model for Registration 
+#### Pretrain Foundation Model Meets Registration 
 * [TMI 2022] SAM: Self-supervised Learning of Pixel-wise Anatomical Embeddings in Radiological Images [[pdf]](https://arxiv.org/abs/2012.02383) [[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
 * [MedIA 2025] UAE: Universal Anatomical Embedding on Multi-modality Medical Images [[pdf]](https://arxiv.org/abs/2311.15111)[[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
 * [TMI 2025] Dino-Reg: Efficient Multimodal Image Registration with Distilled Features [[pdf]](https://ieeexplore.ieee.org/abstract/document/10988615)[[code]](https://github.com/RPIDIAL/DINO-Reg)
 * [IPMI 2025] Medical Image Registration Meets Vision Foundation Model: Prototype Learning and Contour Awareness [[pdf]](https://arxiv.org/pdf/2502.11440)[[code]](https://github.com/HaoXu0507/IPMI25-SAM-Assisted-Registration)
+
+
+
+
 
 ### Registration on Specific Task
 #### Multi-Modality Registration
