@@ -162,15 +162,16 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [MICCAI 2024] On-the-Fly Guidance Training for Medical Image Registration [[pdf]](https://arxiv.org/pdf/2308.15216) [[code]](https://github.com/cilix-ai/on-the-fly-guidance)
 
 ### Foundation Model for Registration 
-* [TMI 2022] SynthMorph: learning contrast-invariant registration without acquired images [[pdf]](https://arxiv.org/abs/2004.10282)  [[code]](https://martinos.org/malte/synthmorph/)
-* [TMI 2022] SAM: Self-supervised Learning of Pixel-wise Anatomical Embeddings in Radiological Images [[pdf]](https://arxiv.org/abs/2012.02383) [[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
+#### Universal Registration Model
 * [MICCAI 2024] uniGradICON: A Foundation Model for Medical Image Registration [[pdf]](https://arxiv.org/abs/2403.05780) [[code]](https://github.com/uncbiag/uniGradICON)
 * [Arxiv 2024] UniMo: Universal Motion Correction For Medical Images without Network Retraining [[pdf]](https://arxiv.org/abs/2409.14204) [[code]](https://github.com/IntelligentImaging/UNIMO/)
 * [ICLR 2025] Learning General-purpose Biomedical Volume Representations using Randomized Synthesis [[pdf]](https://arxiv.org/abs/2411.02372)[[code]](https://github.com/neel-dey/anatomix)
-* [MedIA 2025] UAE: Universal Anatomical Embedding on Multi-modality Medical Images [[pdf]](https://arxiv.org/abs/2311.15111)[[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
 * [MELBA 2025] BrainMorph: A Foundational Keypoint Model for Robust and Flexible Brain MRI Registration [[pdf]](https://arxiv.org/abs/2405.14019v3)[[code]](https://github.com/alanqrwang/brainmorph)
-
-
+#### Vision Foundation Model for Registration 
+* [TMI 2022] SAM: Self-supervised Learning of Pixel-wise Anatomical Embeddings in Radiological Images [[pdf]](https://arxiv.org/abs/2012.02383) [[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
+* [MedIA 2025] UAE: Universal Anatomical Embedding on Multi-modality Medical Images [[pdf]](https://arxiv.org/abs/2311.15111)[[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
+* [TMI 2025] Dino-Reg: Efficient Multimodal Image Registration with Distilled Features [[pdf]](https://ieeexplore.ieee.org/abstract/document/10988615)[[code]](https://github.com/RPIDIAL/DINO-Reg)
+* [IPMI 2025] Medical Image Registration Meets Vision Foundation Model: Prototype Learning and Contour Awareness [[pdf]](https://arxiv.org/pdf/2502.11440)[[code]](https://github.com/HaoXu0507/IPMI25-SAM-Assisted-Registration)
 
 ### Registration on Specific Task
 #### Multi-Modality Registration
@@ -185,6 +186,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [MICCAI 2020] Adversarial uni-and multi-modal stream networks for multimodal image registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-030-59716-0_22)
 * [NeurIPS 2020] CoMIR: Contrastive multimodal image representation for registration [[pdf]](https://proceedings.neurips.cc/paper/2020/hash/d6428eecbe0f7dff83fc607c5044b2b9-Abstract.html) [[code]](https://github.com/MIDA-group/CoMIR)
 * [TPMAI 2021] SymReg-GAN: symmetric image registration with generative adversarial networks [[pdf]](https://ieeexplore.ieee.org/abstract/document/9440692)
+* * [TMI 2022] SynthMorph: learning contrast-invariant registration without acquired images [[pdf]](https://arxiv.org/abs/2004.10282)  [[code]](https://martinos.org/malte/synthmorph/)
 * [MICCAI 2022] ContraReg: Contrastive Learning of Multi-modality Unsupervised Deformable Image Registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-16446-0_7) [[code]](https://github.com/jmtzt/ContraReg)
 * [MICCAI 2023] DISA: DIfferentiable Similarity Approximation for Universal Multimodal Registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_72) [[code]](https://github.com/ImFusionGmbH/DISA-universal-multimodal-registration)
 * [CVPR 2023] Indescribable Multi-modal Spatial Evaluator [[pdf]](https://openaccess.thecvf.com/content/CVPR2023/papers/Kong_Indescribable_Multi-Modal_Spatial_Evaluator_CVPR_2023_paper.pdf) [[code]](https://github.com/Kid-Liet/IMSE)
