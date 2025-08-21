@@ -162,6 +162,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [MICCAI 2023] SAMConvex: Fast Discrete Optimization for CT Registration using Self-supervised Anatomical Embedding and Correlation Pyramid [[pdf]](https://arxiv.org/abs/2307.09727) [[code]](https://github.com/alibaba-damo-academy/samconvex) 
 * [TMI 2024] ConvexAdam: Self-Configuring Dual-Optimisation-Based 3D Multitask Medical Image Registration [[pdf]](https://ieeexplore.ieee.org/abstract/document/10681158) [[code]](https://github.com/multimodallearning/convexAdam)
 * [MICCAI 2024] On-the-Fly Guidance Training for Medical Image Registration [[pdf]](https://arxiv.org/pdf/2308.15216) [[code]](https://github.com/cilix-ai/on-the-fly-guidance)
+* [MICCAI 2025] VoxelOpt: Voxel-Adaptive Message Passing for Discrete Optimization in Deformable Abdominal CT Registration [[pdf]](https://arxiv.org/pdf/2506.19975) [[code]](https://github.com/tinymilky/VoxelOpt)
 
 
 
@@ -177,6 +178,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [MedIA 2025] UAE: Universal Anatomical Embedding on Multi-modality Medical Images [[pdf]](https://arxiv.org/abs/2311.15111)[[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
 * [TMI 2025] Dino-Reg: Efficient Multimodal Image Registration with Distilled Features [[pdf]](https://ieeexplore.ieee.org/abstract/document/10988615)[[code]](https://github.com/RPIDIAL/DINO-Reg)
 * [IPMI 2025] Medical Image Registration Meets Vision Foundation Model: Prototype Learning and Contour Awareness [[pdf]](https://arxiv.org/pdf/2502.11440)[[code]](https://github.com/HaoXu0507/IPMI25-SAM-Assisted-Registration)
+* [MICCAI 2025] Guiding Registration with Emergent Similarity from Pre-Trained Diffusion Models [[pdf]](https://arxiv.org/pdf/2506.02419)[[code]](https://github.com/uncbiag/dgir)
 
 
 
@@ -187,7 +189,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 ##### Classic
 * [MedIA 2011] MIND: Modality independent neighborhood descriptor for multi-modal deformable registration [[pdf]](http://svg.dmi.unict.it/miss14/MISS2014-ReadingGroup00-All-Paper.pdf) [[code]](https://github.com/mattiaspaul/deedsBCV)
 * [MedIA 2012] DRAMMS: Deformable registration via attribute matching and mutual-saliency weighting [[pdf]](https://pmc.ncbi.nlm.nih.gov/articles/PMC3012150/)
-* [MICCAI 2013] Towards realtime multimodal fusion for image-guided interventions using self-similarities [[pdf]](https://www.researchgate.net/profile/Mattias-Heinrich/publication/260127659_Lecture_Notes_in_Computer_Science/links/0deec52eb61e9a9fdc000000/Lecture-Notes-in-Computer-Science.pdf) [[code]](https://github.com/mattiaspaul/deedsBCV)
+* [MICCAI 2013] Towards real-time multimodal fusion for image-guided interventions using self-similarities [[pdf]](https://www.researchgate.net/profile/Mattias-Heinrich/publication/260127659_Lecture_Notes_in_Computer_Science/links/0deec52eb61e9a9fdc000000/Lecture-Notes-in-Computer-Science.pdf) [[code]](https://github.com/mattiaspaul/deedsBCV)
 * [MedIA 2014] Automatic ultrasound–MRI registration for neurosurgery using the 2D and 3D LC2 Metric [[pdf]](https://campar.cs.tum.edu/pub/fuerst2014media/fuerst2014media.pdf)
 ##### Learning-based
 * [IPMI 2019] Unsupervised deformable registration for multi-modal images via disentangled representations [[pdf]](https://link.springer.com/chapter/10.1007/978-3-030-20351-1_19)
@@ -200,7 +202,8 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [MICCAI 2022] ContraReg: Contrastive Learning of Multi-modality Unsupervised Deformable Image Registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-16446-0_7) [[code]](https://github.com/jmtzt/ContraReg)
 * [MICCAI 2023] DISA: DIfferentiable Similarity Approximation for Universal Multimodal Registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_72) [[code]](https://github.com/ImFusionGmbH/DISA-universal-multimodal-registration)
 * [CVPR 2023] Indescribable Multi-modal Spatial Evaluator [[pdf]](https://openaccess.thecvf.com/content/CVPR2023/papers/Kong_Indescribable_Multi-Modal_Spatial_Evaluator_CVPR_2023_paper.pdf) [[code]](https://github.com/Kid-Liet/IMSE)
-* [CVPR 2024] Modality-Agnostic Structural Image Representation Learning for Deformable Multi-Modality Medical Image Registration [[pdf]](https://arxiv.org/abs/2402.18933) 
+* [CVPR 2024] Modality-Agnostic Structural Image Representation Learning for Deformable Multi-Modality Medical Image Registration [[pdf]](https://arxiv.org/abs/2402.18933)
+* [MICCAI 2025] Mono-Modalizing Extremely Heterogeneous Multi-Modal Medical Image Registration [[pdf]](https://arxiv.org/abs/2506.15596) [[code]](https://github.com/MICV-yonsei/M2M-Reg)
 
 
 
