@@ -173,6 +173,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [Arxiv 2024] UniMo: Universal Motion Correction For Medical Images without Network Retraining [[pdf]](https://arxiv.org/abs/2409.14204) [[code]](https://github.com/IntelligentImaging/UNIMO/)
 * [ICLR 2025] Learning General-purpose Biomedical Volume Representations using Randomized Synthesis [[pdf]](https://arxiv.org/abs/2411.02372)[[code]](https://github.com/neel-dey/anatomix)
 * [MELBA 2025] BrainMorph: A Foundational Keypoint Model for Robust and Flexible Brain MRI Registration [[pdf]](https://arxiv.org/abs/2405.14019v3)[[code]](https://github.com/alanqrwang/brainmorph)
+* [MICCAI 2025] PromptReg: Universal Medical Image Registration via Task Prompt Learning and Domain Knowledge Transfer [[pdf]](https://papers.miccai.org/miccai-2025/paper/1233_paper.pdf)[[code]](https://github.com/xiehousheng/PromptReg)
 #### Pretrain Foundation Model Meets Registration 
 * [TMI 2022] SAM: Self-supervised Learning of Pixel-wise Anatomical Embeddings in Radiological Images [[pdf]](https://arxiv.org/abs/2012.02383) [[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
 * [MedIA 2025] UAE: Universal Anatomical Embedding on Multi-modality Medical Images [[pdf]](https://arxiv.org/abs/2311.15111)[[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
