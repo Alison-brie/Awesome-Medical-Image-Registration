@@ -108,6 +108,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [TNNLS 2024] Spatially covariant image registration with text prompts [[pdf]](https://arxiv.org/abs/2311.15607) [[code]](https://github.com/tinymilky/TextSCF)
 * [ECCV 2024] Adaptive Correspondence Scoring for Unsupervised Medical Image Registration [[pdf]](https://arxiv.org/pdf/2312.00837) [[code]](https://github.com/Voldemort108X/AdaCS)
 * [CVPR 2025] SACB-Net: Spatial-awareness Convolutions for Medical Image Registration [[pdf]](https://arxiv.org/pdf/2503.19592) [[code]](https://github.com/x-xc/SACB_Net)
+* [MedIA 2025] Unsupervised learning of spatially varying regularization for diffeomorphic image registration [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S1361841525004335) [[code]](https://github.com/junyuchen245/Spatially-Varying-Regularization-ImgReg)
   
 
 
