@@ -216,6 +216,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [MICCAI 2023] X-ray to ct rigid registration using scene coordinate regression [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_74) [[code]](https://github.com/Pragyanstha/SCR-Registration)
 * [MICCAI 2023] A patient-specific self-supervised model for automatic X-Ray/CT registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-43996-4_49) [[code]](https://github.com/BaochangZhang/PSSS_registration)
 * [CVPR 2024] Intraoperative 2D/3D Image Registration via Differentiable X-ray Rendering [[pdf]](https://arxiv.org/abs/2312.06358) [[code]](https://github.com/eigenvivek/DiffPose)
+* [MedIA 2026] DVAP-Reg: Dual-view anatomical prior-driven cross-dimensional registration for spinal surgery navigation [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S1361841525004761) [[code]](https://github.com/TMMU-KLPOP/DVAP-Reg)
 
 
 #### Histological Image Registration
@@ -294,3 +295,18 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
  - [Elastix](https://github.com/SuperElastix/elastix)
  - [FireANTs (GPU)](https://github.com/rohitrango/fireants)
 
+## Citation
+
+If you find this repo helpful for your research and applications, please cite our paper:
+
+```bibtex
+@ARTICLE{9551747,
+  author={Liu, Risheng and Li, Zi and Fan, Xin and Zhao, Chenying and Huang, Hao and Luo, Zhongxuan},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Learning Deformable Image Registration From Optimization: Perspective, Modules, Bilevel Training and Beyond}, 
+  year={2022},
+  volume={44},
+  number={11},
+  pages={7688-7704},
+  doi={10.1109/TPAMI.2021.3115825}}
+```
