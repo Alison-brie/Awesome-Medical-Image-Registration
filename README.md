@@ -108,7 +108,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [TNNLS 2024] Spatially covariant image registration with text prompts [[pdf]](https://arxiv.org/abs/2311.15607) [[code]](https://github.com/tinymilky/TextSCF)
 * [ECCV 2024] Adaptive Correspondence Scoring for Unsupervised Medical Image Registration [[pdf]](https://arxiv.org/pdf/2312.00837) [[code]](https://github.com/Voldemort108X/AdaCS)
 * [CVPR 2025] SACB-Net: Spatial-awareness Convolutions for Medical Image Registration [[pdf]](https://arxiv.org/pdf/2503.19592) [[code]](https://github.com/x-xc/SACB_Net)
-* [MedIA 2025] Unsupervised learning of spatially varying regularization for diffeomorphic image registration [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S1361841525004335) [[code]](https://github.com/junyuchen245/Spatially-Varying-Regularization-ImgReg)
+* [MedIA 2026] Unsupervised learning of spatially varying regularization for diffeomorphic image registration [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S1361841525004335) [[code]](https://github.com/junyuchen245/Spatially-Varying-Regularization-ImgReg) 
   
 
 
@@ -130,9 +130,11 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 
 
 #### Deep Efficient Registration  
-* [CVPR 2020] DeepFLASH: An Efficient Network for Learning-based Medical Image Registration [[pdf]](https://arxiv.org/pdf/2004.02097)  [[code]](https://github.com/jw4hv/deepflash)
+* [CVPR 2020] DeepFLASH: An Efficient Network for Learning-based Medical Image Registration [[pdf]](https://arxiv.org/pdf/2004.02097) [[code]](https://github.com/jw4hv/deepflash)
+* [TCSVT 2022] Cross-Resolution Distillation for Efficient 3D Medical Image Registration [[pdf]](https://ieeexplore.ieee.org/document/9782430) 
 * [AAAI 2023] Fourier-Net: Fast Image Registration with Band-Limited Deformation [[pdf]](https://arxiv.org/pdf/2211.16342)  [[code]](https://github.com/xi-jia/Fourier-Net)
 * [MICCAI 2024] WiNet: Wavelet-based Incremental Learning for Efficient Medical Image Registration [[pdf]](https://arxiv.org/abs/2407.13426)  [[code]](https://github.com/x-xc/WiNet)
+* [TCSVT 2026] Encoder-Only Image Registration [[pdf]](https://arxiv.org/abs/2509.00451)  [[code]](https://github.com/XiangChen1994/EOIR)
 
 
 
@@ -217,6 +219,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [MICCAI 2023] A patient-specific self-supervised model for automatic X-Ray/CT registration [[pdf]](https://link.springer.com/chapter/10.1007/978-3-031-43996-4_49) [[code]](https://github.com/BaochangZhang/PSSS_registration)
 * [CVPR 2024] Intraoperative 2D/3D Image Registration via Differentiable X-ray Rendering [[pdf]](https://arxiv.org/abs/2312.06358) [[code]](https://github.com/eigenvivek/DiffPose)
 * [MedIA 2026] DVAP-Reg: Dual-view anatomical prior-driven cross-dimensional registration for spinal surgery navigation [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S1361841525004761) [[code]](https://github.com/TMMU-KLPOP/DVAP-Reg)
+* [TMI 2026] Double-Decomposition Motion Tracking of Intraoperative 3D Structures via Cross-Spatio-Temporal Semantics Alignment [[pdf]](https://ieeexplore.ieee.org/document/11184624)
 
 
 #### Histological Image Registration
