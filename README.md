@@ -134,6 +134,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [TCSVT 2022] Cross-Resolution Distillation for Efficient 3D Medical Image Registration [[pdf]](https://ieeexplore.ieee.org/document/9782430) 
 * [AAAI 2023] Fourier-Net: Fast Image Registration with Band-Limited Deformation [[pdf]](https://arxiv.org/pdf/2211.16342)  [[code]](https://github.com/xi-jia/Fourier-Net)
 * [MICCAI 2024] WiNet: Wavelet-based Incremental Learning for Efficient Medical Image Registration [[pdf]](https://arxiv.org/abs/2407.13426)  [[code]](https://github.com/x-xc/WiNet)
+* [TMI 2025] Decoder-Only Image Registration [[pdf]](https://ieeexplore.ieee.org/document/10967349) [[code]](https://github.com/xi-jia/LessNet)
 * [TCSVT 2026] Encoder-Only Image Registration [[pdf]](https://arxiv.org/abs/2509.00451)  [[code]](https://github.com/XiangChen1994/EOIR)
 
 
