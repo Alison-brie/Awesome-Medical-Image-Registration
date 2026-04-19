@@ -177,7 +177,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [ICLR 2025] Learning General-purpose Biomedical Volume Representations using Randomized Synthesis [[pdf]](https://arxiv.org/abs/2411.02372)[[code]](https://github.com/neel-dey/anatomix)
 * [MELBA 2025] BrainMorph: A Foundational Keypoint Model for Robust and Flexible Brain MRI Registration [[pdf]](https://arxiv.org/abs/2405.14019v3)[[code]](https://github.com/alanqrwang/brainmorph)
 * [MICCAI 2025] PromptReg: Universal Medical Image Registration via Task Prompt Learning and Domain Knowledge Transfer [[pdf]](https://papers.miccai.org/miccai-2025/paper/1233_paper.pdf)[[code]](https://github.com/xiehousheng/PromptReg)
-* [ICLR] Unified Brain Surface and Volume Registration [[pdf]](https://arxiv.org/pdf/2512.19928v1)[[code]](https://github.com/mabulnaga/neuralign)
+* [ICLR 2026] Unified Brain Surface and Volume Registration [[pdf]](https://arxiv.org/pdf/2512.19928v1)[[code]](https://github.com/mabulnaga/neuralign)
 #### Pretrain Foundation Model Meets Registration 
 * [TMI 2022] SAM: Self-supervised Learning of Pixel-wise Anatomical Embeddings in Radiological Images [[pdf]](https://arxiv.org/abs/2012.02383) [[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
 * [MICCAI 2023] SAMConvex: Fast Discrete Optimization for CT Registration using Self-supervised Anatomical Embedding and Correlation Pyramid [[pdf]](https://arxiv.org/abs/2307.09727) [[code]](https://github.com/alibaba-damo-academy/samconvex) 
