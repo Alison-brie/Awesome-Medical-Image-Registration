@@ -177,8 +177,10 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [ICLR 2025] Learning General-purpose Biomedical Volume Representations using Randomized Synthesis [[pdf]](https://arxiv.org/abs/2411.02372)[[code]](https://github.com/neel-dey/anatomix)
 * [MELBA 2025] BrainMorph: A Foundational Keypoint Model for Robust and Flexible Brain MRI Registration [[pdf]](https://arxiv.org/abs/2405.14019v3)[[code]](https://github.com/alanqrwang/brainmorph)
 * [MICCAI 2025] PromptReg: Universal Medical Image Registration via Task Prompt Learning and Domain Knowledge Transfer [[pdf]](https://papers.miccai.org/miccai-2025/paper/1233_paper.pdf)[[code]](https://github.com/xiehousheng/PromptReg)
+* [ICLR] Unified Brain Surface and Volume Registration [[pdf]](https://arxiv.org/pdf/2512.19928v1)[[code]](https://github.com/mabulnaga/neuralign)
 #### Pretrain Foundation Model Meets Registration 
 * [TMI 2022] SAM: Self-supervised Learning of Pixel-wise Anatomical Embeddings in Radiological Images [[pdf]](https://arxiv.org/abs/2012.02383) [[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
+* [MICCAI 2023] SAMConvex: Fast Discrete Optimization for CT Registration using Self-supervised Anatomical Embedding and Correlation Pyramid [[pdf]](https://arxiv.org/abs/2307.09727) [[code]](https://github.com/alibaba-damo-academy/samconvex) 
 * [MedIA 2025] UAE: Universal Anatomical Embedding on Multi-modality Medical Images [[pdf]](https://arxiv.org/abs/2311.15111)[[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
 * [TMI 2025] Dino-Reg: Efficient Multimodal Image Registration with Distilled Features [[pdf]](https://ieeexplore.ieee.org/abstract/document/10988615)[[code]](https://github.com/RPIDIAL/DINO-Reg)
 * [IPMI 2025] Medical Image Registration Meets Vision Foundation Model: Prototype Learning and Contour Awareness [[pdf]](https://arxiv.org/pdf/2502.11440)[[code]](https://github.com/HaoXu0507/IPMI25-SAM-Assisted-Registration)
