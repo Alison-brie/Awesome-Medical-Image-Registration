@@ -302,18 +302,3 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
  - [Elastix](https://github.com/SuperElastix/elastix)
  - [FireANTs (GPU)](https://github.com/rohitrango/fireants)
 
-## Citation
-
-If you find this repo helpful for your research and applications, please cite our paper:
-
-```bibtex
-@ARTICLE{9551747,
-  author={Liu, Risheng and Li, Zi and Fan, Xin and Zhao, Chenying and Huang, Hao and Luo, Zhongxuan},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
-  title={Learning Deformable Image Registration From Optimization: Perspective, Modules, Bilevel Training and Beyond}, 
-  year={2022},
-  volume={44},
-  number={11},
-  pages={7688-7704},
-  doi={10.1109/TPAMI.2021.3115825}}
-```
