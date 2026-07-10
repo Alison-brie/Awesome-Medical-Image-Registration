@@ -284,6 +284,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 
 
 ## Challenges
+ - [Learn2Reg 2025](https://learn2reg.grand-challenge.org/learn2reg-2025/)
  - [Oncoreg](https://learn2reg.grand-challenge.org/oncoreg/)
  - [Learn2Reg 2024](https://learn2reg.grand-challenge.org/learn2reg-2024/)
  - [Learn2Reg 2023](https://learn2reg.grand-challenge.org/learn2reg-2023/)
