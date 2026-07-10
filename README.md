@@ -127,6 +127,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [ECCV 2024] NePhi: Neural Deformation Fields for Approximately Diffeomorphic Medical Image Registration [[pdf]](https://arxiv.org/abs/2309.07322) [[code]](https://github.com/uncbiag/NePhi)
 * [MELBA 2024] SITReg: Multi-resolution architecture for symmetric, inverse consistent, and topology preserving image registration [[pdf]](https://arxiv.org/abs/2303.10211) [[code]](https://github.com/honkamj/SITReg?tab=readme-ov-file)
 * [CVPR 2025] CARL: A Framework for Equivariant Image Registration [[pdf]](https://arxiv.org/pdf/2405.16738)
+* [CVPR 2026] Learning Diffeomorphism for Medical Image Registration with Time-Embedded Architectures Using Semigroup Regularization [[pdf]](https://openaccess.thecvf.com/content/CVPR2026/papers/Matinkia_Learning_Diffeomorphism_for_Medical_Image_Registration_with_Time-Embedded_Architectures_Using_CVPR_2026_paper.pdf) [[code]](https://mattkia.github.io/SGDIR/)
 
 
 #### Deep Efficient Registration  
@@ -136,7 +137,8 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [MICCAI 2024] WiNet: Wavelet-based Incremental Learning for Efficient Medical Image Registration [[pdf]](https://arxiv.org/abs/2407.13426)  [[code]](https://github.com/x-xc/WiNet)
 * [TMI 2025] Decoder-Only Image Registration [[pdf]](https://ieeexplore.ieee.org/document/10967349) [[code]](https://github.com/xi-jia/LessNet)
 * [TCSVT 2026] Encoder-Only Image Registration [[pdf]](https://arxiv.org/abs/2509.00451)  [[code]](https://github.com/XiangChen1994/EOIR)
-
+* [CVPR 2026] Dynamic Stream Network for Combinatorial Explosion Problem in Deformable Medical Image Registration [[pdf]](https://openaccess.thecvf.com/content/CVPR2026/papers/Bi_Dynamic_Stream_Network_for_Combinatorial_Explosion_Problem_in_Deformable_Medical_CVPR_2026_paper.pdf)
+ [[code]](https://github.com/ShaochenBi/DySNet)
 
 
 ### Joint Affine and Deformable Registration
