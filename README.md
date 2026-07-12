@@ -286,20 +286,49 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 
 ## Datasets
 
-This section collects publicly available datasets commonly used in medical image registration. The datasets cover different anatomies, imaging modalities, and registration settings, and the list will be continuously expanded.
+This section collects publicly available datasets commonly used in medical image registration. The datasets are grouped by imaging modality and will be continuously expanded.
 
-> Some datasets require account registration, acceptance of data-use agreements, or challenge participation. Dataset splits and preprocessing protocols may vary across studies. Please refer to the corresponding paper and official implementation for the exact experimental settings.
+> Some datasets require account registration, acceptance of data-use agreements, or challenge participation. The number of images, generated registration pairs, dataset splits, and preprocessing protocols may vary across studies. Please refer to the corresponding paper and official implementation for the exact experimental settings.
 
-| Dataset | Anatomy | Modality | Typical registration setting | Scale and notes | Download |
-|---|---|---|---|---|---|
-| OASIS | Brain | 3D T1-weighted MRI | Atlas-based and inter-subject registration | OASIS-1 contains 416 subjects. Preprocessed images and anatomical segmentation maps are commonly used in registration studies. | [Official OASIS-1](https://sites.wustl.edu/oasisbrains/home/oasis-1/) · [Neurite-preprocessed data](https://surfer.nmr.mgh.harvard.edu/ftp/data/neurite/data/) |
-| CANDI | Brain | 3D T1-weighted MRI | Inter-subject registration | The CANDIShare SchizBull 2008 release contains 103 subjects with anatomical labels. | [CANDIShare](https://www.nitrc.org/projects/candi_share/) |
-| LPBA40 | Brain | 3D T1-weighted MRI | Inter-subject registration | Contains 40 subjects with manually annotated anatomical structures. | [LONI Atlas Downloads](https://www.loni.usc.edu/research/atlas_downloads) |
-| Mindboggle101 | Brain | 3D T1-weighted MRI | Inter-subject registration | Contains 101 manually labeled brain MRI scans collected from multiple publicly available datasets. | [Mindboggle101](https://mindboggle.info/data) |
-| IXI | Brain | Multimodal MRI | Inter-subject registration | Contains nearly 600 healthy subjects with T1, T2, proton-density, MRA, and diffusion MRI scans. T1-weighted images are commonly used for registration. | [IXI Dataset](https://brain-development.org/ixi-dataset/) |
-| ACDC | Cardiac | Cine MRI | End-diastolic to end-systolic registration | Contains 150 cardiac examinations with annotations for the left ventricle, right ventricle, and myocardium. | [ACDC Database](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html) |
-| Learn2Reg LungCT | Lung / thorax | 3D CT | Intra-patient inspiration-to-expiration registration | A landmark-based lung CT registration benchmark containing paired inspiration and expiration scans. | [Learn2Reg Datasets](https://learn2reg.grand-challenge.org/Datasets/) |
-| Learn2Reg AbdomenCTCT | Abdomen | 3D CT | Inter-subject CT-to-CT registration | An abdominal CT registration benchmark with anatomical segmentation labels. | [Learn2Reg Datasets](https://learn2reg.grand-challenge.org/Datasets/) |
+### CT Datasets
+
+| Dataset | Anatomy | Typical registration setting | Scale and notes | Access |
+|---|---|---|---|---|
+| Learn2Reg Abdomen CT–CT | Abdomen | Inter-subject CT–CT registration | Contains 30 abdominal CT scans with annotations of 13 anatomical structures. | [Learn2Reg Datasets](https://learn2reg.grand-challenge.org/Datasets/) |
+| Learn2Reg Lung CT | Lung / thorax | Intra-subject inspiration–expiration registration | Contains paired inspiration and expiration lung CT scans, including 20 training pairs and 10 test pairs. | [Learn2Reg Datasets](https://learn2reg.grand-challenge.org/Datasets/) |
+| SegRap2023 | Head and neck | Inter-subject CT registration | Contains paired non-contrast and contrast-enhanced CT scans from 200 patients with nasopharyngeal carcinoma, together with annotations of organs at risk and gross tumor volumes. | [SegRap2023 Dataset](https://segrap2023.grand-challenge.org/dataset/) |
+| Abdominal DIR-QA | Abdomen | Intra-subject longitudinal CT registration | Contains 30 abdominal CT image pairs with corresponding vessel-bifurcation landmarks for registration evaluation. | [Zenodo](https://zenodo.org/records/14362785) · [Usage Instructions](https://github.com/deshanyang/Abdominal-DIR-QA) |
+| Medical Segmentation Decathlon – Liver | Liver | Inter-subject liver CT registration | Task03 contains portal-venous-phase CT volumes with liver and tumor annotations. | [Official Website](https://medicaldecathlon.com/) · [AWS Open Data](https://registry.opendata.aws/msd/) |
+| SLIVER07 | Liver | Inter-subject liver CT registration | Contains contrast-enhanced abdominal CT scans with liver segmentation annotations. | [SLIVER07](https://sliver07.grand-challenge.org/) · [Zenodo](https://zenodo.org/records/2597575) |
+| BFH Liver CT | Liver | Inter-subject liver CT registration | Contains liver CT volumes collected at Beijing Friendship Hospital. A preprocessed version is distributed through the Recursive-Cascaded-Networks repository. | [Preprocessed Dataset](https://github.com/microsoft/Recursive-Cascaded-Networks#datasets) |
+| LSPIG | Liver | Intra-subject or paired liver CT registration | Contains paired pig liver CT scans with liver segmentation labels. A preprocessed version is distributed through the Recursive-Cascaded-Networks repository. | [Preprocessed Dataset](https://github.com/microsoft/Recursive-Cascaded-Networks#datasets) |
+| NIH CT Lymph Nodes | Mediastinum and abdomen | Anatomical representation learning and CT registration research | Contains thoracic and abdominal CT scans with annotated lymph nodes. | [TCIA CT-LYMPH-NODES](https://www.cancerimagingarchive.net/collection/ct-lymph-nodes/) |
+
+### MR Datasets
+
+| Dataset | Anatomy | Typical registration setting | Scale and notes | Access |
+|---|---|---|---|---|
+| OASIS | Brain | Atlas-based and inter-subject T1-weighted MR registration | OASIS-1 contains 416 subjects. Anatomical segmentation maps and preprocessed versions are commonly used in registration studies. | [OASIS-1](https://sites.wustl.edu/oasisbrains/home/oasis-1/) · [Neurite-preprocessed Data](https://surfer.nmr.mgh.harvard.edu/ftp/data/neurite/data/) |
+| CANDI | Brain | Inter-subject T1-weighted MR registration | The CANDIShare SchizBull 2008 release contains 103 subjects with anatomical labels. | [CANDIShare](https://www.nitrc.org/projects/candi_share/) |
+| LPBA40 | Brain | Inter-subject T1-weighted MR registration | Contains 40 subjects with manually annotated anatomical structures. | [LONI Atlas Downloads](https://www.loni.usc.edu/research/atlas_downloads) |
+| Mindboggle101 | Brain | Inter-subject T1-weighted MR registration | Contains 101 manually labeled brain MR scans collected from multiple public datasets. | [Mindboggle101 Data](https://mindboggle.info/data) |
+| IXI | Brain | Inter-subject brain MR registration | Contains nearly 600 healthy subjects with T1, T2, proton-density, MRA, and diffusion MR scans. T1-weighted images are commonly used for registration. | [IXI Dataset](https://brain-development.org/ixi-dataset/) |
+| LUMIR | Brain | Large-scale inter-subject T1-weighted MR registration | Provides a large collection of preprocessed T1-weighted brain MR volumes for deformable registration. | [Learn2Reg 2024 – LUMIR](https://learn2reg.grand-challenge.org/learn2reg-2024/) |
+| ADNI | Brain | Atlas-based and inter-subject T1-weighted MR registration | A longitudinal multi-site neuroimaging dataset for Alzheimer's disease research. An application and data-use agreement are required. | [ADNI Data Access](https://adni.loni.usc.edu/data-samples/adni-data/) |
+| ABIDE | Brain | Atlas-based and inter-subject T1-weighted MR registration | Provides structural T1-weighted MRI and resting-state fMRI collected from multiple imaging sites. | [ABIDE Database Access](https://fcon_1000.projects.nitrc.org/indi/abide/databases.html) |
+| PPMI | Brain | Atlas-based and inter-subject T1-weighted MR registration | A longitudinal Parkinson's disease dataset containing clinical and multimodal imaging data. Data access requires an application. | [PPMI Data Access](https://www.ppmi-info.org/access-data-specimens/download-data) |
+| HCP Young Adult | Brain | Atlas-based and inter-subject structural MR registration | A large healthy-adult neuroimaging dataset containing structural, diffusion, and functional MR scans. | [HCP Young Adult Data](https://www.humanconnectome.org/study/hcp-young-adult/data-releases) |
+| BraTS 2018 | Brain | Cross-contrast T1–T2 MR registration | Provides multimodal brain tumor MR scans, including T1, contrast-enhanced T1, T2, and FLAIR sequences. | [BraTS 2018 Data](https://www.med.upenn.edu/sbia/brats2018/data.html) |
+| iSeg-2019 | Infant brain | Cross-contrast T1–T2 MR registration | Provides multi-site T1- and T2-weighted MR scans of 6-month-old infants with white matter, gray matter, and cerebrospinal fluid annotations. | [iSeg-2019 Data](https://iseg2019.web.unc.edu/data/) |
+| ACDC | Cardiac | Intra-subject end-diastolic–end-systolic registration | Contains cardiac cine-MR examinations with annotations of the left ventricle, right ventricle, and myocardium. | [ACDC Database](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html) |
+| Osteoarthritis Initiative | Knee | Inter-subject and longitudinal knee MR registration | A large longitudinal knee osteoarthritis cohort containing knee MRI, radiographs, clinical variables, and associated annotations. | [OAI Data Access](https://nda.nih.gov/oai) |
+
+### Paired CT–MR Datasets
+
+| Dataset | Anatomy | Typical registration setting | Scale and notes | Access |
+|---|---|---|---|---|
+| Learn2Reg Abdomen MR–CT | Abdomen | Intra-subject deformable MR–CT registration | Contains paired abdominal MR and CT scans with abdominal organ annotations for multimodal registration evaluation, together with additional unpaired scans. | [Learn2Reg Datasets](https://learn2reg.grand-challenge.org/Datasets/) |
+
 
 ## Challenges
  - [Learn2Reg 2025](https://learn2reg.grand-challenge.org/learn2reg-2025/)
