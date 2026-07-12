@@ -22,6 +22,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 
  - [Related Awesome Lists](#related-awesome-lists)
  - [Papers](#papers)
+ - [Datasets](#datasets)
  - [Chanllenges](#chanllenges)
  - [Software](#software)
 
@@ -291,14 +292,14 @@ This section collects publicly available datasets commonly used in medical image
 
 | Dataset | Anatomy | Modality | Typical registration setting | Scale and notes | Download |
 |---|---|---|---|---|---|
-| OASIS | Brain | 3D T1-weighted MRI | Atlas-based and inter-subject registration | OASIS-1 contains 416 subjects. Preprocessed images and anatomical segmentation maps are commonly used in learning-based registration studies. | [Official OASIS-1](https://sites.wustl.edu/oasisbrains/home/oasis-1/) · [Neurite-preprocessed data](https://surfer.nmr.mgh.harvard.edu/ftp/data/neurite/data/) |
+| OASIS | Brain | 3D T1-weighted MRI | Atlas-based and inter-subject registration | OASIS-1 contains 416 subjects. Preprocessed images and anatomical segmentation maps are commonly used in registration studies. | [Official OASIS-1](https://sites.wustl.edu/oasisbrains/home/oasis-1/) · [Neurite-preprocessed data](https://surfer.nmr.mgh.harvard.edu/ftp/data/neurite/data/) |
 | CANDI | Brain | 3D T1-weighted MRI | Inter-subject registration | The CANDIShare SchizBull 2008 release contains 103 subjects with anatomical labels. | [CANDIShare](https://www.nitrc.org/projects/candi_share/) |
 | LPBA40 | Brain | 3D T1-weighted MRI | Inter-subject registration | Contains 40 subjects with manually annotated anatomical structures. | [LONI Atlas Downloads](https://www.loni.usc.edu/research/atlas_downloads) |
 | Mindboggle101 | Brain | 3D T1-weighted MRI | Inter-subject registration | Contains 101 manually labeled brain MRI scans collected from multiple publicly available datasets. | [Mindboggle101](https://mindboggle.info/data) |
 | IXI | Brain | Multimodal MRI | Inter-subject registration | Contains nearly 600 healthy subjects with T1, T2, proton-density, MRA, and diffusion MRI scans. T1-weighted images are commonly used for registration. | [IXI Dataset](https://brain-development.org/ixi-dataset/) |
 | ACDC | Cardiac | Cine MRI | End-diastolic to end-systolic registration | Contains 150 cardiac examinations with annotations for the left ventricle, right ventricle, and myocardium. | [ACDC Database](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html) |
 | Learn2Reg LungCT | Lung / thorax | 3D CT | Intra-patient inspiration-to-expiration registration | A landmark-based lung CT registration benchmark containing paired inspiration and expiration scans. | [Learn2Reg Datasets](https://learn2reg.grand-challenge.org/Datasets/) |
-| Learn2Reg AbdomenCTCT | Abdomen | 3D CT | Inter-subject CT-to-CT registration | An abdominal CT registration benchmark with anatomical segmentation labels for multiple organs. | [Learn2Reg Datasets](https://learn2reg.grand-challenge.org/Datasets/) |
+| Learn2Reg AbdomenCTCT | Abdomen | 3D CT | Inter-subject CT-to-CT registration | An abdominal CT registration benchmark with anatomical segmentation labels. | [Learn2Reg Datasets](https://learn2reg.grand-challenge.org/Datasets/) |
 
 ## Challenges
  - [Learn2Reg 2025](https://learn2reg.grand-challenge.org/learn2reg-2025/)
