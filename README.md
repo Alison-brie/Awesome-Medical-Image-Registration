@@ -227,6 +227,7 @@ Please feel free to send me [pull requests](https://github.com/Alison-brie/Aweso
 * [CVPR 2024] Intraoperative 2D/3D Image Registration via Differentiable X-ray Rendering [[pdf]](https://arxiv.org/abs/2312.06358) [[code]](https://github.com/eigenvivek/DiffPose)
 * [MedIA 2026] DVAP-Reg: Dual-view anatomical prior-driven cross-dimensional registration for spinal surgery navigation [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S1361841525004761) [[code]](https://github.com/TMMU-KLPOP/DVAP-Reg)
 * [TMI 2026] Double-Decomposition Motion Tracking of Intraoperative 3D Structures via Cross-Spatio-Temporal Semantics Alignment [[pdf]](https://ieeexplore.ieee.org/document/11184624)
+* [Nature 2026] Rapid patient-specific neural networks for intraoperative X-ray to volume registration [[pdf]](https://arxiv.org/pdf/2503.16309)
 
 
 #### Histological Image Registration
