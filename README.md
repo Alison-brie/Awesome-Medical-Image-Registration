@@ -192,7 +192,7 @@ The papers are organized along complementary dimensions including transformation
 * [MedIA 2019] Quantitative error prediction of medical image registration using regression forests [[pdf]](https://arxiv.org/abs/1905.07624)
 * [MICCAI 2019] On the Applicability of Registration Uncertainty [[pdf]](https://arxiv.org/abs/1803.05266)
 * [MICCAI 2023] FocalErrorNet: Uncertainty-aware focal modulation network for inter-modal registration error estimation in ultrasound-guided neurosurgery [[pdf]](https://conferences.miccai.org/2023/papers/278-Paper3362.html)
-* * [MIDL 2024] Registration Quality Evaluation Metric with Self-Supervised Siamese Networks [[pdf]](https://proceedings.mlr.press/v250/kulkarni24b.html)
+* [MIDL 2024] Registration Quality Evaluation Metric with Self-Supervised Siamese Networks [[pdf]](https://proceedings.mlr.press/v250/kulkarni24b.html)
 * [MedIA 2026] Contrastive Discrepancy: A label-free metric for deformable image registration supporting testing-time hyperparameter selection [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S1361841526002793)
 
 ### 5. Registration Settings
