@@ -67,7 +67,6 @@ The papers are organized along complementary dimensions including transformation
   - [Registration-guided Segmentation](#registration-guided-segmentation)
   - [Atlas & Template Construction](#atlas--template-construction)
   - [Motion Estimation & Tracking](#motion-estimation--tracking)
-  - [Image Translation / Fusion](#image-translation--fusion)
   - [Representation Learning](#representation-learning)
   - [Image-guided Intervention & Surgical Navigation](#image-guided-intervention--surgical-navigation)
 
@@ -180,7 +179,7 @@ The papers are organized along complementary dimensions including transformation
 * [MELBA 2025] BrainMorph: A Foundational Keypoint Model for Robust and Flexible Brain MRI Registration [[pdf]](https://arxiv.org/abs/2405.14019v3)[[code]](https://github.com/alanqrwang/brainmorph)
 * [MICCAI 2025] PromptReg: Universal Medical Image Registration via Task Prompt Learning and Domain Knowledge Transfer [[pdf]](https://papers.miccai.org/miccai-2025/paper/1233_paper.pdf)[[code]](https://github.com/xiehousheng/PromptReg)
 * [ICLR 2026] Unified Brain Surface and Volume Registration [[pdf]](https://arxiv.org/pdf/2512.19928v1)[[code]](https://github.com/mabulnaga/neuralign)
-* [TCSVT 2026] UniReg: Conditional Unified Model for Medical Image Registration.
+* [TCSVT 2026] UniReg: Conditional Unified Model for Medical Image Registration.[[pdf]](https://arxiv.org/pdf/2503.12868v2) [[code]](https://github.com/Alison-brie/UniReg)
 
 #### Foundation Features for Registration
 * [TMI 2022] SAM: Self-supervised Learning of Pixel-wise Anatomical Embeddings in Radiological Images [[pdf]](https://arxiv.org/abs/2012.02383) [[code]](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)
@@ -189,13 +188,14 @@ The papers are organized along complementary dimensions including transformation
 * [TMI 2025] Dino-Reg: Efficient Multimodal Image Registration with Distilled Features [[pdf]](https://ieeexplore.ieee.org/abstract/document/10988615)[[code]](https://github.com/RPIDIAL/DINO-Reg)
 * [IPMI 2025] Medical Image Registration Meets Vision Foundation Model: Prototype Learning and Contour Awareness [[pdf]](https://arxiv.org/pdf/2502.11440)[[code]](https://github.com/HaoXu0507/IPMI25-SAM-Assisted-Registration)
 * [MICCAI 2025] Guiding Registration with Emergent Similarity from Pre-Trained Diffusion Models [[pdf]](https://arxiv.org/pdf/2506.02419)[[code]](https://github.com/uncbiag/dgir)
+* [MICCAI 2026] FSE-Reg: Enhancing 3D Deformable Registration with Frozen Large-Scale Pre-trained Segmentation Encoders [[code]](https://github.com/alibaba-damo-academy/FSE-Reg)
 
 ### 4. Registration Quality Assessment
-* [MedIA 2026] Contrastive Discrepancy: A label-free metric for deformable image registration supporting testing-time hyperparameter selection [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S1361841526002793)
-* [MIDL 2024] Registration Quality Evaluation Metric with Self-Supervised Siamese Networks [[pdf]](https://proceedings.mlr.press/v250/kulkarni24b.html)
-* [MICCAI 2023] FocalErrorNet: Uncertainty-aware focal modulation network for inter-modal registration error estimation in ultrasound-guided neurosurgery [[pdf]](https://conferences.miccai.org/2023/papers/278-Paper3362.html)
 * [MedIA 2019] Quantitative error prediction of medical image registration using regression forests [[pdf]](https://arxiv.org/abs/1905.07624)
 * [MICCAI 2019] On the Applicability of Registration Uncertainty [[pdf]](https://arxiv.org/abs/1803.05266)
+* [MICCAI 2023] FocalErrorNet: Uncertainty-aware focal modulation network for inter-modal registration error estimation in ultrasound-guided neurosurgery [[pdf]](https://conferences.miccai.org/2023/papers/278-Paper3362.html)
+* * [MIDL 2024] Registration Quality Evaluation Metric with Self-Supervised Siamese Networks [[pdf]](https://proceedings.mlr.press/v250/kulkarni24b.html)
+* [MedIA 2026] Contrastive Discrepancy: A label-free metric for deformable image registration supporting testing-time hyperparameter selection [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S1361841526002793)
 
 ### 5. Registration Settings
 
@@ -273,9 +273,6 @@ The papers are organized along complementary dimensions including transformation
 * [TMI 2022] MulViMotion: Shape-aware 3D Myocardial Motion Tracking from Multi-View Cardiac MRI [[pdf]](https://ieeexplore.ieee.org/abstract/document/9721301/) [[code]](https://github.com/ImperialCollegeLondon/Multiview-Motion-Estimation-for-3D-cardiac-motion-tracking)
 * [MedIA 2023] Generative myocardial motion tracking via latent space exploration with biomechanics-informed prior [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841522003103) [[code]](https://github.com/cq615/BIGM-motion-tracking)
 * [MICCAI 2024] TLRN: Temporal Latent Residual Networks For Large Deformation Image Registration [[pdf]](https://arxiv.org/abs/2407.11219) [[code]](https://github.com/nellie689/TLRN)
-
-#### Image Translation / Fusion
-<!-- To be expanded. -->
 
 #### Representation Learning
 * [CVPR 2023] Geometric Visual Similarity Learning in 3D Medical Image Self-supervised Pre-training [[pdf]](https://arxiv.org/abs/2303.00874) [[code]](https://github.com/YutingHe-list/GVSL)
