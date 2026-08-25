@@ -59,7 +59,6 @@ The papers are organized along complementary dimensions including transformation
 - [5. Registration Settings](#5-registration-settings)
   - [Multi-modal Registration](#multi-modal-registration)
   - [2D–3D Registration](#2d3d-registration)
-  - [Longitudinal Registration](#longitudinal-registration)
   - [Histological / Microscopy Registration](#histological--microscopy-registration)
   - [Pathology-aware / Missing-correspondence Registration](#pathology-aware--missing-correspondence-registration)
   - [Cortical Surface Registration](#cortical-surface-registration)
@@ -154,7 +153,6 @@ The papers are organized along complementary dimensions including transformation
 * [TPAMI 2021] Learning Deformable Image Registration from Optimization: Perspective, Modules, Bilevel Training and Beyond [[pdf]](https://arxiv.org/abs/2004.14557) [[code]](https://github.com/Alison-brie/MultiPropReg)
 * [MedIA 2023] Hyper-Convolutions via Implicit Kernels for Medical Image Analysis [[pdf]](https://arxiv.org/abs/2202.02701) [[code]](https://github.com/tym002/Hyper-Convolution)
 * [TIP 2023] Automated learning for deformable medical image registration by jointly optimizing network architectures and objective functions [[pdf]](https://arxiv.org/abs/2203.06810) [[code]](https://github.com/Alison-brie/AutoReg)
-
 * [TNNLS 2024] Spatially covariant image registration with text prompts [[pdf]](https://arxiv.org/abs/2311.15607) [[code]](https://github.com/tinymilky/TextSCF)
 * [ECCV 2024] Adaptive Correspondence Scoring for Unsupervised Medical Image Registration [[pdf]](https://arxiv.org/pdf/2312.00837) [[code]](https://github.com/Voldemort108X/AdaCS)
 * [CVPR 2025] SACB-Net: Spatial-awareness Convolutions for Medical Image Registration [[pdf]](https://arxiv.org/pdf/2503.19592) [[code]](https://github.com/x-xc/SACB_Net)
@@ -230,8 +228,6 @@ The papers are organized along complementary dimensions including transformation
 * [TMI 2026] Double-Decomposition Motion Tracking of Intraoperative 3D Structures via Cross-Spatio-Temporal Semantics Alignment [[pdf]](https://ieeexplore.ieee.org/document/11184624)
 * [Nature 2026] Rapid patient-specific neural networks for intraoperative X-ray to volume registration [[pdf]](https://arxiv.org/pdf/2503.16309)
 
-#### Longitudinal Registration
-* [MedIA 2024] Longitudinally consistent registration and parcellation of cortical surfaces using semi-supervised learning [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S136184152400118X) [[code]](https://github.com/BRAIN-Lab-UNC/LongitudinalJointRegParc)
 
 #### Histological / Microscopy Registration
 * [TMI 2020] ANHIR: Automatic Non-rigid Histological Image Registration Challenge, IEEE Transactions on Medical Imaging [[pdf]](https://ieeexplore.ieee.org/document/9058666) [[code]](https://github.com/MWod/ANHIR_MW)
@@ -251,6 +247,7 @@ The papers are organized along complementary dimensions including transformation
 * [MedIA 2024] SUGAR: Spherical ultrafast graph attention framework for cortical surface registration [[pdf]](https://www.sciencedirect.com/science/article/pii/S1361841524000471) [[code]](https://github.com/pBFSLab/SUGAR)
 * [MedIA 2024] Longitudinally consistent registration and parcellation of cortical surfaces using semi-supervised learning [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S136184152400118X) [[code]](https://github.com/BRAIN-Lab-UNC/LongitudinalJointRegParc)
 * [MedIA 2024] JOSA: Joint surface-based registration and atlas construction of brain geometry and function [[pdf]](https://arxiv.org/pdf/2311.08544) [[code]](https://voxelmorph.net)
+
 
 ### 6. Registration-Enabled Medical Image Analysis
 
